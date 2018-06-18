@@ -1,5 +1,0 @@
-2018-06-17 08:00:44,551 - ResourceManager : unable to find resource '/src/main/resources/test.vm' in any resource loader.
-2018-06-17 08:01:39,202 - ResourceManager : unable to find resource '/src/main/resources/vm/testtemplate.vm' in any resource loader.
-2018-06-17 08:02:10,394 - ResourceManager : unable to find resource '/classes/vm/testtemplate.vm' in any resource loader.
-2018-06-17 08:05:57,390 - ResourceManager : unable to find resource '/classes/vm/testtemplate.vm' in any resource loader.
-2018-06-17 08:06:14,372 - ResourceManager : unable to find resource 'vm/testtemplate.vm' in any resource loader.
