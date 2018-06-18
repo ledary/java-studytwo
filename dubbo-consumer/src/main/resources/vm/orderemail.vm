@@ -1,0 +1,13 @@
+<html>
+<body>
+<p >亲，请您核对下订单信息哦【${model.orderNumber}】</p>
+<div>
+    <p>收货人：${model.name}</p>
+    <p>电话：${model.tpl}</p>
+    <p>收货地点：${model.address}</p>
+    <p>商品信息：${model.productInfo}</p>
+    <p>商品价格：${model.price}</p>
+</div>
+
+</body>
+</html>

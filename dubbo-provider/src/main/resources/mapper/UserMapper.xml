@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="dubbo.wk.dao.UserMapper">
+    <resultMap id="user" type="dubbo.wk.model.domain.UserEntity">
+        <id property="id" column="id"/>
+        <result property="uuid" column="uuid"/>
+        <result property="userName" column="username"/>
+        <result property="password" column="password"/>
+        <result property="phone" column="phone"/>
+        <result property="email" column="email"/>
+        <result property="sex" column="sex"/>
+        <result property="created" column="created"/>
+        <result property="updated" column="updated"/>
+    </resultMap>
+
+    <select id="findByPrimaryKey" resultMap="user">
+       SELECT id,uuid,username,`password`,phone,email,sex,created,updated FROM `tb_user`
+       where id=#{id}
+
+    </select>
+</mapper>
