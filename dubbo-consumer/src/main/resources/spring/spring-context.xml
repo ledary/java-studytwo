@@ -18,7 +18,8 @@
     <context:component-scan
             base-package="
             dubbo.wk.controller,
-            dubbo.wk.service.impl
+            dubbo.wk.service.impl,
+            dubbo.wk.job
 "/>
     <!-- 定义文件上传解析器 -->
     <!-- 文件上传解析器 -->
@@ -31,6 +32,11 @@
     <!--<import resource="classpath:dubbo-consumer.xml"/>-->
     <import resource="classpath:spring/spring-mybatis.xml"/>
     <import resource="classpath:spring/spring-task.xml"/>
+    <!--集群quartz配置-->
+    <import resource="classpath:spring/spring-quartzmany.xml"/>
+
+    <!--quartz单机版配置-->
+    <!--<import resource="classpath:spring/spring-quartz.xml"/>-->
 
 
 

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+
+
+    <bean id="dataSourceQuartz" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="url" value="${db.url_quartz}"/>
+        <property name="username" value="${db.username}"/>
+        <property name="driverClassName" value="${db.driver}"/>
+        <property name="password" value="${db.password}"/>
+        <property name="maxActive" value="${db.maxActive}"/>
+        <property name="initialSize" value="${db.initialSize}"/>
+        <property name="maxWait" value="${db.maxWait}"/>
+        <property name="minIdle" value="${db.minIdle}"/>
+        <property name="timeBetweenEvictionRunsMillis" value="${db.timeBetweenEvictionRunsMillis}"/>
+        <property name="minEvictableIdleTimeMillis" value="${db.minEvictableIdleTimeMillis}"/>
+        <property name="validationQuery" value="${db.validationQuery}"/>
+        <property name="testWhileIdle" value="${db.testWhileIdle}"/>
+        <property name="testOnBorrow" value="${db.testOnBorrow}"/>
+        <property name="testOnReturn" value="${db.testOnReturn}"/>
+        <property name="poolPreparedStatements" value="${db.poolPreparedStatements}"/>
+        <property name="maxOpenPreparedStatements" value="${db.maxOpenPreparedStatements}"/>
+        <property name="filters" value="stat,config"/>
+        <!--<property name="connectionProperties" value="config.decrypt=true;config.decrypt.key=${publicKey}"/>-->
+    </bean>
+
+    <!--//线程执行器配置 用于任务注册-->
+    <bean id="executor" class="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor">
+        <property name="corePoolSize" value="10"/>
+        <property name="maxPoolSize" value="100"/>
+        <property name="queueCapacity" value="500"/>
+
+    </bean>
+
+
+    <bean id="quartzJob2" class="dubbo.wk.job.QuartzJob2"/>
+    <bean id="testMethod2" class="org.springframework.scheduling.quartz.JobDetailFactoryBean">
+        <property name="durability" value="true"/>
+        <property name="requestsRecovery" value="true"/>
+        <property name="jobClass" value="dubbo.wk.job.quartz.MyDetailQuartzJobBean"/>
+        <property name="jobDataAsMap">
+            <map>
+                <entry key="targetObject" value="quartzJob2"/>
+                <entry key="targetMethod" value="run"/>
+            </map>
+        </property>
+
+    </bean>
+
+    <bean id="trigger1" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+        <property name="jobDetail" ref="testMethod2"/>
+        <property name="cronExpression" value="0/5 * * * * ? *"/>
+    </bean>
+
+
+
+    <bean id="stdScheduler" class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+        <property name="dataSource" ref="dataSourceQuartz"/>
+        <!--延时启动-->
+        <property name="startupDelay" value="30"/>
+
+        <property name="applicationContextSchedulerContextKey" value="applicationKey"/>
+        <property name="configLocation" value="classpath:quartz.properties"/>
+        <property name="overwriteExistingJobs" value="true"/>
+        <property name="autoStartup" value="true"/>
+        <property name="triggers">
+            <list>
+                <ref bean="trigger1"/>
+            </list>
+        </property>
+    </bean>
+
+
+
+
+</beans>

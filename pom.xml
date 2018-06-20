@@ -74,6 +74,7 @@
             <artifactId>spring-oxm</artifactId>
             <version>${spring.version}</version>
         </dependency>
+        <!--quartz需要 该tx jar包-->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-tx</artifactId>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+
+
+
+
+    <!--有基类的定时任务配置-->
+<bean id="quartzJob1" class="org.springframework.scheduling.quartz.JobDetailFactoryBean">
+    <property name="jobClass" value="dubbo.wk.job.QuartzJob1"/>
+    <property name="jobDataAsMap">
+        <map>
+            <entry key="timeout" value="0"/>
+        </map>
+    </property>
+</bean>
+    <bean id="cronTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+        <property name="jobDetail" ref="quartzJob1"/>
+        <property name="cronExpression" value="0 0/1 * * * ? *"/>
+    </bean>
+    <!--****************************************************************-->
+
+
+    <bean id="quartzJob2" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+        <property name="targetObject">
+            <bean class="dubbo.wk.job.QuartzJob2"/>
+        </property>
+        <property name="targetMethod" value="run"/>
+        <property name="concurrent" value="false"/>
+    </bean>
+
+    <bean id="cronTrigger2" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+        <property name="jobDetail" ref="quartzJob2"/>
+        <property name="cronExpression" value="0 0/1 * * * ? *"/>
+    </bean>
+
+
+    <!--单机版 调度器配置-->
+    <bean id="stdScheduler" class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+        <property name="triggers">
+            <list>
+                <ref bean="cronTrigger"/>
+                <ref bean="cronTrigger2"/>
+            </list>
+        </property>
+    </bean>
+
+
+
+</beans>

@@ -1,4 +1,4 @@
-package dubbo.wk.job;
+package dubbo.wk.job.quartzexample;
 
 import dubbo.wk.utils.DataFormatUtils;
 import org.quartz.Job;

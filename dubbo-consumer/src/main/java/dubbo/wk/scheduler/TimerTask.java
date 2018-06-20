@@ -8,10 +8,10 @@ import java.time.format.DateTimeFormatter;
 
 /**
  * @author WGP
- * @description  定时任务测试类
+ * @description  定时任务测试类 spring自带的定时任务
  * @date 2018/6/18
  **/
-@Component
+//@Component
 public class TimerTask {
 
     @Scheduled(cron = "* * * * * ?")

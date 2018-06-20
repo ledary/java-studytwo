@@ -1,4 +1,4 @@
-package dubbo.wk.job;
+package dubbo.wk.job.quartzexample;
 
 import org.quartz.*;
 import org.quartz.impl.StdSchedulerFactory;

@@ -1,4 +1,4 @@
-package dubbo.wk.job;
+package dubbo.wk.job.quartzexample;
 
 import org.quartz.CronScheduleBuilder;
 import org.quartz.CronTrigger;
