@@ -1,4 +1,4 @@
-dubbo-consumer 工程下utils包下为工具类
+dubbo-consumer 工程下：
 
 spring 集合 velocity异步发送邮件：
 
@@ -8,6 +8,7 @@ spring 集合 velocity异步发送邮件：
     DataFormatUitls  格式化时间工具类
     Result  返回前台实体类
 
-
+job 包下为 quartz定时器任务类
+scheduler 包下为spring定时器任务类
 
 
