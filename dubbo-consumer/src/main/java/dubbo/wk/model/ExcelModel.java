@@ -1,6 +1,6 @@
 package dubbo.wk.model;
 
-import dubbo.wk.utils.ExcelDesc;
+import dubbo.wk.utils.excel.ExcelDesc;
 
 /**
  * Created by wgp on 2018/6/20.
