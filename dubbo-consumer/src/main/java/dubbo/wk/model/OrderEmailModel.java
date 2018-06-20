@@ -2,7 +2,7 @@ package dubbo.wk.model;
 
 /**
  * @author WGP
- * @descriptionparent
+ * @description  发送邮件显示订单信息实体
  * @date 2018/6/17
  **/
 public class OrderEmailModel {

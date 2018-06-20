@@ -7,5 +7,5 @@ package dubbo.wk.constants;
  **/
 public class Constant {
     public static  final  String SUCCESS_CODE = "0";
-    public static  final  String FAIL_CODE = "0";
+    public static  final  String FAIL_CODE = "1";
 }
