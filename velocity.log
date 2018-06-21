@@ -7,3 +7,5 @@
 2018-06-16 21:25:06,971 - ResourceManager : unable to find resource 'F:\dubbo-demo\dubbo-consumer\src\main\java\dubbo\wk\utils\testtemplate.vm' in any resource loader.
 2018-06-16 21:27:39,270 - ResourceManager : unable to find resource 'classes\vm\testtemplate.vm' in any resource loader.
 2018-06-17 07:57:53,741 - ResourceManager : unable to find resource 'vm\testtemplate.vm' in any resource loader.
+2018-06-21 21:12:47,640 - ResourceManager : unable to find resource '/F:/dubbo-demo/dubbo-consumer/target/classes/\vm\word.vm' in any resource loader.
+2018-06-21 21:14:39,894 - ResourceManager : unable to find resource 'word.vm' in any resource loader.

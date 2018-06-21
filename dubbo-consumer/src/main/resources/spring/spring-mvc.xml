@@ -18,6 +18,46 @@
     <mvc:annotation-driven/>
     <context:component-scan base-package="dubbo.wk.controller"/>
 
+    <!-- 定义文件上传解析器 -->
+    <!-- 文件上传解析器 -->
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <property name="defaultEncoding" value="utf-8"></property>
+        <property name="maxUploadSize" value="10485760000"></property><!-- 最大上传文件大小 -->
+        <property name="maxInMemorySize" value="40960"></property>
+    </bean>
+    <!-- 配置视图解析器 -->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/jsp/"></property>
+        <property name="suffix" value=".jsp"></property>
+    </bean>
+    <context:property-placeholder location="classpath:file.properties,classpath:db.properties,classpath:log4j.properties"/>
 
+    <!--<bean id="configProperties" class="org.springframework.beans.factory.config.PropertiesFactoryBean">-->
+        <!--<property name="locations">-->
+            <!--<list>-->
+                <!--<value>classpath:file.properties</value>-->
+            <!--</list>-->
+        <!--</property>-->
+    <!--</bean>-->
+    <!--<bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PreferencesPlaceholderConfigurer">-->
+        <!--<property name="properties" ref="configProperties" />-->
+    <!--</bean>-->
+
+
+<!--读取配置文件 properties文件  配置bean-->
+    <!--<bean-->
+            <!--class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">-->
+        <!--<property name="order" value="1"/>-->
+        <!--<property name="ignoreUnresolvablePlaceholders" value="true"/>-->
+        <!--<property name="locations">-->
+            <!--<list>-->
+                <!--<value>classpath:file.properties</value>-->
+                <!--<value>classpath:db.properties</value>-->
+                <!--<value>classpath:quartz.properties</value>-->
+                <!--<value>classpath:log4j.properties</value>-->
+
+            <!--</list>-->
+        <!--</property>-->
+    <!--</bean>-->
 
 </beans>

@@ -9,11 +9,7 @@
 
 
 
-    <!-- 配置视图解析器 -->
-    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-        <property name="prefix" value="/WEB-INF/jsp/"></property>
-        <property name="suffix" value=".jsp"></property>
-    </bean>
+
 
     <context:component-scan
             base-package="
@@ -21,15 +17,9 @@
             dubbo.wk.service.impl,
             dubbo.wk.job
 "/>
-    <!-- 定义文件上传解析器 -->
-    <!-- 文件上传解析器 -->
-    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
-        <property name="defaultEncoding" value="utf-8"></property>
-        <property name="maxUploadSize" value="10485760000"></property><!-- 最大上传文件大小 -->
-        <property name="maxInMemorySize" value="40960"></property>
-    </bean>
-    <context:property-placeholder location="classpath:db.properties,classpath:log4j.properties"/>
+
     <!--<import resource="classpath:dubbo-consumer.xml"/>-->
+    <import resource="classpath:spring/spring-mvc.xml"/>
     <import resource="classpath:spring/spring-mybatis.xml"/>
     <import resource="classpath:spring/spring-task.xml"/>
     <!--集群quartz配置-->

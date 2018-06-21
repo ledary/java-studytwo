@@ -1,0 +1,3222 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Created>2006-09-16T00:00:00Z</Created>
+  <LastSaved>2018-06-21T07:41:27Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <CustomDocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Generator dt:dt="string">NPOI</Generator>
+  <Generator_x0020_Version dt:dt="string">2.1.1</Generator_x0020_Version>
+ </CustomDocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <RemovePersonalInformation/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <SupBook>
+   <Path>\\Kt1\c\My Documents\MHUONG\2003\CONGNO-TK1312.xls</Path>
+   <SheetName>Mucluc</SheetName>
+   <SheetName>HUONG</SheetName>
+   <SheetName>CU.HUONG</SheetName>
+   <SheetName>THU</SheetName>
+   <SheetName>H.LONG</SheetName>
+   <SheetName>DALLAS</SheetName>
+   <SheetName>ThuanNhan</SheetName>
+   <SheetName>N.H.LONG</SheetName>
+   <SheetName>P.Q.K.OANH</SheetName>
+   <SheetName>YunJin</SheetName>
+   <SheetName>CN.VTIEN</SheetName>
+   <SheetName>N.DUC.HIEU</SheetName>
+   <SheetName>MoTongN</SheetName>
+   <SheetName>HoangLong</SheetName>
+   <SheetName>TRANHA</SheetName>
+   <SheetName>MYDUNG</SheetName>
+   <SheetName>JUKI</SheetName>
+   <SheetName>BALIMEX</SheetName>
+   <SheetName>VNGARMENT</SheetName>
+   <SheetName>DONGTIEN</SheetName>
+   <SheetName>P.X.LIEU</SheetName>
+   <SheetName>VIETTIEN</SheetName>
+   <SheetName>Hai_Duong</SheetName>
+   <SheetName>KLONG</SheetName>
+   <SheetName>MELCOSA</SheetName>
+   <SheetName>TRANLAM</SheetName>
+   <SheetName>GERMANN</SheetName>
+   <SheetName>DTien</SheetName>
+   <SheetName>THUHANG</SheetName>
+   <SheetName>THUCUC</SheetName>
+   <SheetName>TTVINATEX</SheetName>
+   <SheetName>VIETTAN</SheetName>
+   <SheetName>TanMai</SheetName>
+   <SheetName>HaiDuong</SheetName>
+   <SheetName>EVELYN</SheetName>
+   <SheetName>HUYHOANG</SheetName>
+   <SheetName>VINHHUNG</SheetName>
+   <SheetName>TAPPHAM</SheetName>
+   <SheetName>PROMILES</SheetName>
+   <SheetName>TAPDOAN19-5</SheetName>
+   <SheetName>ISA</SheetName>
+   <SheetName>TJuki</SheetName>
+   <SheetName>MThin</SheetName>
+   <SheetName>VinhDat</SheetName>
+   <SheetName>GVtec</SheetName>
+   <SheetName>NhaBe</SheetName>
+   <SheetName>DET 29</SheetName>
+   <SheetName>KUNGWON</SheetName>
+   <SheetName>GKimLong</SheetName>
+   <SheetName>BaLan</SheetName>
+   <SheetName>NTrang</SheetName>
+   <SheetName>XUANPHONG</SheetName>
+   <SheetName>C.Trang</SheetName>
+   <SheetName>TimDo</SheetName>
+   <SheetName>MINH QUANG</SheetName>
+   <SheetName>LANTOR</SheetName>
+   <SheetName>LAMPHUOC</SheetName>
+   <SheetName>CTY NEXUS</SheetName>
+   <SheetName>CP GIALAM</SheetName>
+   <SheetName>MAILINH</SheetName>
+   <SheetName>YBS</SheetName>
+   <SheetName>ZHEJIANG</SheetName>
+   <SheetName>PANGRIM</SheetName>
+   <SheetName>XL4Poppy</SheetName>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>0</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>1</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>2</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>3</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>4</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>5</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>6</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>7</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>8</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>9</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>10</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>11</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>12</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>13</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>14</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>15</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>16</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>17</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>18</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>19</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>20</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>21</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>22</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>23</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>24</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>25</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>26</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>27</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>28</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>29</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>30</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>31</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>32</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>33</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>34</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>35</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>36</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>37</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>38</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>39</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>40</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>41</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>42</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>43</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>44</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>45</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>46</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>47</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>48</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>49</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>50</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>51</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>52</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>53</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>54</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>55</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>56</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>57</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>58</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>59</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>60</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>61</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>62</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>63</SheetIndex>
+   </Xct>
+  </SupBook>
+  <SupBook>
+   <Path>\\M2\d\RECYCLED\NPROTECT\SHEETLOW2104.xls</Path>
+   <SheetName>01-7</SheetName>
+   <SheetName>lowe(uk) 데카스톤</SheetName>
+   <SheetName>자재단가표 (2)</SheetName>
+   <SheetName>POST 커버 </SheetName>
+   <SheetName>(IV)</SheetName>
+   <SheetName>(PK)</SheetName>
+   <SheetName>자재 의뢰서 </SheetName>
+   <SheetName>(SR)M-MEC </SheetName>
+   <SheetName>DRAFT</SheetName>
+   <SheetName>COVERING</SheetName>
+   <SheetName>(IV)M-MEC (2)</SheetName>
+   <SheetName>(PK)M-MEC (2)</SheetName>
+   <SheetName>(IV)M-MEC</SheetName>
+   <SheetName>(PK)M-MEC</SheetName>
+   <SheetName>자재 의뢰서(M-MEC)</SheetName>
+   <SheetName>DRAFT(M-MEC) </SheetName>
+   <Xct>
+    <Count>179</Count>
+    <SheetIndex>0</SheetIndex>
+    <Crn>
+     <Row>4</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>CONTOUR CROSSBOW 45</Text>
+     <Number>21.22</Number>
+    </Crn>
+    <Crn>
+     <Row>5</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>APS 9 SH.HARN LGE</Text>
+     <Number>4.76</Number>
+    </Crn>
+    <Crn>
+     <Row>6</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>APS 9 SH.HARN MED</Text>
+     <Number>4.5599999999999996</Number>
+    </Crn>
+    <Crn>
+     <Row>7</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>DRAWCORD</Text>
+     <Number>0.2</Number>
+    </Crn>
+    <Crn>
+     <Row>8</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>SHOULDER STRAP TRAVEL PACK</Text>
+     <Number>1.83</Number>
+    </Crn>
+    <Crn>
+     <Row>9</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>TXN 1000</Text>
+     <Number>4</Number>
+    </Crn>
+    <Crn>
+     <Row>10</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>ALPINE CROSSBOW 45+10</Text>
+     <Number>26.33</Number>
+    </Crn>
+    <Crn>
+     <Row>11</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>26.33</Number>
+    </Crn>
+    <Crn>
+     <Row>12</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>26.33</Number>
+    </Crn>
+    <Crn>
+     <Row>13</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>ALPAMAYO ND 60+15</Text>
+     <Number>38.909999999999997</Number>
+    </Crn>
+    <Crn>
+     <Row>14</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>ALPAMAYO 70+20</Text>
+     <Number>40.450000000000003</Number>
+    </Crn>
+    <Crn>
+     <Row>15</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>40.450000000000003</Number>
+    </Crn>
+    <Crn>
+     <Row>16</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>40.450000000000003</Number>
+    </Crn>
+    <Crn>
+     <Row>17</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>ALPAMAYO  90+20</Text>
+     <Number>42.35</Number>
+    </Crn>
+    <Crn>
+     <Row>18</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>42.35</Number>
+    </Crn>
+    <Crn>
+     <Row>19</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>ALPINE ATTACK 40</Text>
+     <Number>19.39</Number>
+    </Crn>
+    <Crn>
+     <Row>20</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>19.39</Number>
+    </Crn>
+    <Crn>
+     <Row>21</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>ALPINE ATTACK 50</Text>
+     <Number>24.96</Number>
+    </Crn>
+    <Crn>
+     <Row>22</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>24.96</Number>
+    </Crn>
+    <Crn>
+     <Row>23</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>24.96</Number>
+    </Crn>
+    <Crn>
+     <Row>24</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>CERRO TORRE ND 55+15</Text>
+     <Number>31.68</Number>
+    </Crn>
+    <Crn>
+     <Row>25</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>31.68</Number>
+    </Crn>
+    <Crn>
+     <Row>26</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>31.68</Number>
+    </Crn>
+    <Crn>
+     <Row>27</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>CERRO TORRE 65+20 TXN FZ</Text>
+     <Number>35.340000000000003</Number>
+    </Crn>
+    <Crn>
+     <Row>28</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>CERRO TORRE 65+20</Text>
+     <Number>34.159999999999997</Number>
+    </Crn>
+    <Crn>
+     <Row>29</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>34.159999999999997</Number>
+    </Crn>
+    <Crn>
+     <Row>30</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>34.159999999999997</Number>
+    </Crn>
+    <Crn>
+     <Row>31</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>CERRO TORRE 75+20</Text>
+     <Number>34.979999999999997</Number>
+    </Crn>
+    <Crn>
+     <Row>32</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>34.979999999999997</Number>
+    </Crn>
+    <Crn>
+     <Row>33</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>34.979999999999997</Number>
+    </Crn>
+    <Crn>
+     <Row>34</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>CERRO TORRE 85+20</Text>
+     <Number>35.76</Number>
+    </Crn>
+    <Crn>
+     <Row>35</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>35.76</Number>
+    </Crn>
+    <Crn>
+     <Row>36</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>35.76</Number>
+    </Crn>
+    <Crn>
+     <Row>37</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>CONTOUR MOUNTAIN 45</Text>
+     <Number>16.23</Number>
+    </Crn>
+    <Crn>
+     <Row>38</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>16.23</Number>
+    </Crn>
+    <Crn>
+     <Row>39</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>16.23</Number>
+    </Crn>
+    <Crn>
+     <Row>40</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>CRAG SACK 35</Text>
+     <Number>16.29</Number>
+    </Crn>
+    <Crn>
+     <Row>41</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>16.29</Number>
+    </Crn>
+    <Crn>
+     <Row>42</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>16.29</Number>
+    </Crn>
+    <Crn>
+     <Row>43</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>ICE PEAK 40</Text>
+     <Number>20.85</Number>
+    </Crn>
+    <Crn>
+     <Row>44</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>20.85</Number>
+    </Crn>
+    <Crn>
+     <Row>45</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>OFF LIMITS 40</Text>
+     <Number>24.45</Number>
+    </Crn>
+    <Crn>
+     <Row>46</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>24.45</Number>
+    </Crn>
+    <Crn>
+     <Row>47</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>24.45</Number>
+    </Crn>
+    <Crn>
+     <Row>48</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>RONDOY 50</Text>
+     <Number>24.73</Number>
+    </Crn>
+    <Crn>
+     <Row>49</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>SNOW PEAK 50</Text>
+     <Number>19.309999999999999</Number>
+    </Crn>
+    <Crn>
+     <Row>50</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>19.309999999999999</Number>
+    </Crn>
+    <Crn>
+     <Row>51</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>SOUTH PEAK 30</Text>
+     <Number>19.77</Number>
+    </Crn>
+    <Crn>
+     <Row>52</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>19.77</Number>
+    </Crn>
+    <Crn>
+     <Row>53</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>19.77</Number>
+    </Crn>
+    <Crn>
+     <Row>54</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>19.77</Number>
+    </Crn>
+    <Crn>
+     <Row>55</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>SOUTH PEAK 40</Text>
+     <Number>20.64</Number>
+    </Crn>
+    <Crn>
+     <Row>56</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>20.64</Number>
+    </Crn>
+    <Crn>
+     <Row>57</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>20.64</Number>
+    </Crn>
+    <Crn>
+     <Row>58</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>20.64</Number>
+    </Crn>
+    <Crn>
+     <Row>59</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>20.64</Number>
+    </Crn>
+    <Crn>
+     <Row>60</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>SP .CERRO TORRE 65+20</Text>
+     <Number>33.909999999999997</Number>
+    </Crn>
+    <Crn>
+     <Row>61</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>SP.CERRO TORRE 75+20</Text>
+     <Number>34.979999999999997</Number>
+    </Crn>
+    <Crn>
+     <Row>62</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>SP.CERRO TORRE  ND 55+15</Text>
+     <Number>31.68</Number>
+    </Crn>
+    <Crn>
+     <Row>63</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>SP.CERRO TORRE  85+20</Text>
+     <Number>35.76</Number>
+    </Crn>
+    <Crn>
+     <Row>64</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>APPALACHIAN ND 50+15</Text>
+     <Number>25.92</Number>
+    </Crn>
+    <Crn>
+     <Row>65</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>25.92</Number>
+    </Crn>
+    <Crn>
+     <Row>66</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>25.92</Number>
+    </Crn>
+    <Crn>
+     <Row>67</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>APPALACHIAN ND 55+15</Text>
+     <Number>28.02</Number>
+    </Crn>
+    <Crn>
+     <Row>68</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>28.02</Number>
+    </Crn>
+    <Crn>
+     <Row>69</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>APPALACHIAN 60+15</Text>
+     <Number>27.08</Number>
+    </Crn>
+    <Crn>
+     <Row>70</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>27.08</Number>
+    </Crn>
+    <Crn>
+     <Row>71</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>27.08</Number>
+    </Crn>
+    <Crn>
+     <Row>72</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>27.08</Number>
+    </Crn>
+    <Crn>
+     <Row>73</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>APPALACHIAN 65+15</Text>
+     <Number>29.45</Number>
+    </Crn>
+    <Crn>
+     <Row>74</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>29.45</Number>
+    </Crn>
+    <Crn>
+     <Row>75</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>29.45</Number>
+    </Crn>
+    <Crn>
+     <Row>76</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>APPALACHIAN 70+15</Text>
+     <Number>28.08</Number>
+    </Crn>
+    <Crn>
+     <Row>77</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>28.08</Number>
+    </Crn>
+    <Crn>
+     <Row>78</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>APPALACHIAN 75+15</Text>
+     <Number>30.19</Number>
+    </Crn>
+    <Crn>
+     <Row>79</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>FRONTIER ND 55+15</Text>
+     <Number>29.18</Number>
+    </Crn>
+    <Crn>
+     <Row>80</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>29.18</Number>
+    </Crn>
+    <Crn>
+     <Row>81</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>29.18</Number>
+    </Crn>
+    <Crn>
+     <Row>82</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>FRONTIER 65+15</Text>
+     <Number>30.63</Number>
+    </Crn>
+    <Crn>
+     <Row>83</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>30.63</Number>
+    </Crn>
+    <Crn>
+     <Row>84</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>30.63</Number>
+    </Crn>
+    <Crn>
+     <Row>85</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>30.63</Number>
+    </Crn>
+    <Crn>
+     <Row>86</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>FRONTIER 75+15</Text>
+     <Number>30.75</Number>
+    </Crn>
+    <Crn>
+     <Row>87</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>30.75</Number>
+    </Crn>
+    <Crn>
+     <Row>88</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>30.75</Number>
+    </Crn>
+    <Crn>
+     <Row>89</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>FRONTIER 85+15</Text>
+     <Number>31.42</Number>
+    </Crn>
+    <Crn>
+     <Row>90</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>LIBERTY  75+20</Text>
+     <Number>43.17</Number>
+    </Crn>
+    <Crn>
+     <Row>91</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>43.17</Number>
+    </Crn>
+    <Crn>
+     <Row>92</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>43.17</Number>
+    </Crn>
+    <Crn>
+     <Row>93</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>LIBERTY ND 65+15</Text>
+     <Number>40.08</Number>
+    </Crn>
+    <Crn>
+     <Row>94</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>SALIENT</Text>
+     <Number>31.46</Number>
+    </Crn>
+    <Crn>
+     <Row>95</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>SARACEN</Text>
+     <Number>53.52</Number>
+    </Crn>
+    <Crn>
+     <Row>96</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>SKYLINE ND 45</Text>
+     <Number>23.44</Number>
+    </Crn>
+    <Crn>
+     <Row>97</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>23.44</Number>
+    </Crn>
+    <Crn>
+     <Row>98</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>23.44</Number>
+    </Crn>
+    <Crn>
+     <Row>99</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>23.44</Number>
+    </Crn>
+    <Crn>
+     <Row>100</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>SKYLINE ND 55</Text>
+     <Number>24.61</Number>
+    </Crn>
+    <Crn>
+     <Row>101</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>24.61</Number>
+    </Crn>
+    <Crn>
+     <Row>102</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>SKYLINE 55</Text>
+     <Number>25.51</Number>
+    </Crn>
+    <Crn>
+     <Row>103</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>25.51</Number>
+    </Crn>
+    <Crn>
+     <Row>104</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>25.51</Number>
+    </Crn>
+    <Crn>
+     <Row>105</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>25.51</Number>
+    </Crn>
+    <Crn>
+     <Row>106</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>25.51</Number>
+    </Crn>
+    <Crn>
+     <Row>107</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>SKYLINE 65</Text>
+     <Number>26.24</Number>
+    </Crn>
+    <Crn>
+     <Row>108</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>26.24</Number>
+    </Crn>
+    <Crn>
+     <Row>109</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>26.24</Number>
+    </Crn>
+    <Crn>
+     <Row>110</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>26.24</Number>
+    </Crn>
+    <Crn>
+     <Row>111</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>VISION 25</Text>
+     <Number>19.010000000000002</Number>
+    </Crn>
+    <Crn>
+     <Row>112</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>19.010000000000002</Number>
+    </Crn>
+    <Crn>
+     <Row>113</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>19.010000000000002</Number>
+    </Crn>
+    <Crn>
+     <Row>114</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>VISION 30</Text>
+     <Number>19.43</Number>
+    </Crn>
+    <Crn>
+     <Row>115</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>19.43</Number>
+    </Crn>
+    <Crn>
+     <Row>116</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>19.43</Number>
+    </Crn>
+    <Crn>
+     <Row>117</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>19.43</Number>
+    </Crn>
+    <Crn>
+     <Row>118</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>19.43</Number>
+    </Crn>
+    <Crn>
+     <Row>119</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>VISION 35</Text>
+     <Number>19.73</Number>
+    </Crn>
+    <Crn>
+     <Row>120</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>19.73</Number>
+    </Crn>
+    <Crn>
+     <Row>121</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>19.73</Number>
+    </Crn>
+    <Crn>
+     <Row>122</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>19.73</Number>
+    </Crn>
+    <Crn>
+     <Row>123</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>VISION 40</Text>
+     <Number>20.21</Number>
+    </Crn>
+    <Crn>
+     <Row>124</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>20.21</Number>
+    </Crn>
+    <Crn>
+     <Row>125</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>20.21</Number>
+    </Crn>
+    <Crn>
+     <Row>126</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>WALKABOUT  ND 35 LFR</Text>
+     <Number>16.5</Number>
+    </Crn>
+    <Crn>
+     <Row>127</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>WALKABOUT ND 37</Text>
+     <Number>17.28</Number>
+    </Crn>
+    <Crn>
+     <Row>128</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>17.28</Number>
+    </Crn>
+    <Crn>
+     <Row>129</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>17.28</Number>
+    </Crn>
+    <Crn>
+     <Row>130</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>17.28</Number>
+    </Crn>
+    <Crn>
+     <Row>131</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>WALKABOUT 25</Text>
+     <Number>16.22</Number>
+    </Crn>
+    <Crn>
+     <Row>132</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>16.22</Number>
+    </Crn>
+    <Crn>
+     <Row>133</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>WALKABOUT 27</Text>
+     <Number>16.5</Number>
+    </Crn>
+    <Crn>
+     <Row>134</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>16.5</Number>
+    </Crn>
+    <Crn>
+     <Row>135</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>16.5</Number>
+    </Crn>
+    <Crn>
+     <Row>136</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>16.5</Number>
+    </Crn>
+    <Crn>
+     <Row>137</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>WALKABOUT 35</Text>
+     <Number>17.13</Number>
+    </Crn>
+    <Crn>
+     <Row>138</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>17.13</Number>
+    </Crn>
+    <Crn>
+     <Row>139</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>WALKABOUT 35 LFR</Text>
+     <Number>16.91</Number>
+    </Crn>
+    <Crn>
+     <Row>140</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>16.91</Number>
+    </Crn>
+    <Crn>
+     <Row>141</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>16.91</Number>
+    </Crn>
+    <Crn>
+     <Row>142</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>WALKABOUT 37</Text>
+     <Number>17.309999999999999</Number>
+    </Crn>
+    <Crn>
+     <Row>143</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>17.309999999999999</Number>
+    </Crn>
+    <Crn>
+     <Row>144</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>17.309999999999999</Number>
+    </Crn>
+    <Crn>
+     <Row>145</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>17.309999999999999</Number>
+    </Crn>
+    <Crn>
+     <Row>146</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>WALKABOUT 45</Text>
+     <Number>18.440000000000001</Number>
+    </Crn>
+    <Crn>
+     <Row>147</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>18.440000000000001</Number>
+    </Crn>
+    <Crn>
+     <Row>148</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>WALKABOUT 45 LFR</Text>
+     <Number>17.559999999999999</Number>
+    </Crn>
+    <Crn>
+     <Row>149</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>WALKABOUT 47</Text>
+     <Number>18.309999999999999</Number>
+    </Crn>
+    <Crn>
+     <Row>150</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>18.309999999999999</Number>
+    </Crn>
+    <Crn>
+     <Row>151</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>18.309999999999999</Number>
+    </Crn>
+    <Crn>
+     <Row>152</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>18.309999999999999</Number>
+    </Crn>
+    <Crn>
+     <Row>153</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>WALKABOUT  50 LFR</Text>
+     <Number>19.8</Number>
+    </Crn>
+    <Crn>
+     <Row>154</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>19.8</Number>
+    </Crn>
+    <Crn>
+     <Row>155</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>19.8</Number>
+    </Crn>
+    <Crn>
+     <Row>156</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>19.8</Number>
+    </Crn>
+    <Crn>
+     <Row>157</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>APPALACHIAN TREKKER 70</Text>
+     <Number>23.44</Number>
+    </Crn>
+    <Crn>
+     <Row>158</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text> KINNI  60</Text>
+     <Number>24.69</Number>
+    </Crn>
+    <Crn>
+     <Row>159</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>INCA  70</Text>
+     <Number>28</Number>
+    </Crn>
+    <Crn>
+     <Row>160</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>INCA  60</Text>
+     <Number>27.27</Number>
+    </Crn>
+    <Crn>
+     <Row>161</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>KITBAG 120</Text>
+     <Number>12.77</Number>
+    </Crn>
+    <Crn>
+     <Row>162</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>12.77</Number>
+    </Crn>
+    <Crn>
+     <Row>163</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>KITBAG 50</Text>
+     <Number>9.5399999999999991</Number>
+    </Crn>
+    <Crn>
+     <Row>164</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>KITBAG 70</Text>
+     <Number>10.6</Number>
+    </Crn>
+    <Crn>
+     <Row>165</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>KITBAG 90</Text>
+     <Number>11.8</Number>
+    </Crn>
+    <Crn>
+     <Row>166</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>11.8</Number>
+    </Crn>
+    <Crn>
+     <Row>167</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>SHUTTLE (L) 75</Text>
+     <Number>25.74</Number>
+    </Crn>
+    <Crn>
+     <Row>168</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>SHUTTLE (S) 65</Text>
+     <Number>25.1</Number>
+    </Crn>
+    <Crn>
+     <Row>169</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>TRAVEL TREKKER 70</Text>
+     <Number>34.18</Number>
+    </Crn>
+    <Crn>
+     <Row>170</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>TRAVEL TREKKER II 70</Text>
+     <Number>37.869999999999997</Number>
+    </Crn>
+    <Crn>
+     <Row>171</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>37.869999999999997</Number>
+    </Crn>
+    <Crn>
+     <Row>172</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>TRAVEL TREKKER II ND 60</Text>
+     <Number>36.47</Number>
+    </Crn>
+    <Crn>
+     <Row>173</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>36.47</Number>
+    </Crn>
+    <Crn>
+     <Row>174</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>TRAVEL TREKKER II 60</Text>
+     <Number>37.36</Number>
+    </Crn>
+    <Crn>
+     <Row>175</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>37.36</Number>
+    </Crn>
+    <Crn>
+     <Row>176</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>TRAVEL TREKKER  ND 60</Text>
+     <Number>32.71</Number>
+    </Crn>
+    <Crn>
+     <Row>177</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Number>32.71</Number>
+    </Crn>
+    <Crn>
+     <Row>178</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>VOYAGEUR 65</Text>
+     <Number>35.409999999999997</Number>
+    </Crn>
+    <Crn>
+     <Row>179</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>WORLD TRAVELLER  65+10</Text>
+     <Number>45.35</Number>
+    </Crn>
+    <Crn>
+     <Row>180</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>LIBERTY ND 60+15 LFR</Text>
+     <Number>32.619999999999997</Number>
+    </Crn>
+    <Crn>
+     <Row>181</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>LIBERTY 70+20 LFR</Text>
+     <Number>33.89</Number>
+    </Crn>
+    <Crn>
+     <Row>182</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>APPALACHIAN  TREKKER  ND 60</Text>
+     <Number>22.48</Number>
+    </Crn>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>1</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>2</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>3</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>4</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>5</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>6</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>7</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>8</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>9</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>10</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>11</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>12</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>13</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>14</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>15</SheetIndex>
+   </Xct>
+  </SupBook>
+  <WindowHeight>9750</WindowHeight>
+  <WindowWidth>24000</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s378" ss:Name="常规 2">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m456045633648" ss:Parent="s378">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="m456045633668" ss:Parent="s378">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="m456045633688" ss:Parent="s378">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#FF0000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="m456045633708" ss:Parent="s378">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s447" ss:Parent="s378">
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s448" ss:Parent="s378">
+   <Font ss:FontName="黑体" x:CharSet="134" x:Family="Modern" ss:Size="16"
+    ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s449" ss:Parent="s378">
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="12"
+    ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s450" ss:Parent="s378">
+   <Alignment ss:Vertical="Bottom"/>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s451" ss:Parent="s378">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s452" ss:Parent="s378">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s453" ss:Parent="s378">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s454" ss:Parent="s378">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s455" ss:Parent="s378">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s456" ss:Parent="s378">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s457" ss:Parent="s378">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s458" ss:Parent="s378">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="yyyy/m/d;@"/>
+  </Style>
+  <Style ss:ID="s459" ss:Parent="s378">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Short Date"/>
+  </Style>
+  <Style ss:ID="s460" ss:Parent="s378">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Short Date"/>
+  </Style>
+  <Style ss:ID="s461" ss:Parent="s378">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s462" ss:Parent="s378">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s463" ss:Parent="s378">
+   <Alignment ss:Horizontal="CenterAcrossSelection" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s464" ss:Parent="s378">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s465" ss:Parent="s378">
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s466" ss:Parent="s378">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="000000"/>
+  </Style>
+  <Style ss:ID="s467" ss:Parent="s378">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s468" ss:Parent="s378">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s469" ss:Parent="s378">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s470" ss:Parent="s378">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s471" ss:Parent="s378">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s472" ss:Parent="s378">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s473" ss:Parent="s378">
+   <Alignment ss:Horizontal="CenterAcrossSelection" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s474" ss:Parent="s378">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s475" ss:Parent="s378">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s476" ss:Parent="s378">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s477" ss:Parent="s378">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s478" ss:Parent="s378">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s479" ss:Parent="s378">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s480" ss:Parent="s378">
+   <Alignment ss:Horizontal="CenterAcrossSelection" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s481" ss:Parent="s378">
+   <Alignment ss:Horizontal="CenterAcrossSelection" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s482" ss:Parent="s378">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s484" ss:Parent="s378">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#FF0000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s486" ss:Parent="s378">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="9" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s487" ss:Parent="s378">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Fixed"/>
+  </Style>
+  <Style ss:ID="s488" ss:Parent="s378">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Fixed"/>
+  </Style>
+  <Style ss:ID="s489" ss:Parent="s378">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="9" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s490" ss:Parent="s378">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Fixed"/>
+  </Style>
+  <Style ss:ID="s491" ss:Parent="s378">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s493" ss:Parent="s378">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="0.0&quot;KGS&quot;"/>
+  </Style>
+  <Style ss:ID="s494" ss:Parent="s378">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="0&quot;KGS&quot;"/>
+  </Style>
+  <Style ss:ID="s495" ss:Parent="s378">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="0.00&quot;KGS&quot;"/>
+  </Style>
+  <Style ss:ID="s496" ss:Parent="s378">
+   <Alignment ss:Horizontal="CenterAcrossSelection" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s497" ss:Parent="s378">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s498" ss:Parent="s378">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s499" ss:Parent="s378">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s500" ss:Parent="s378">
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s501" ss:Parent="s378">
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s502" ss:Parent="s378">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s503" ss:Parent="s378">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s504" ss:Parent="s378">
+   <Borders/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s505" ss:Parent="s378">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s506" ss:Parent="s378">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s507" ss:Parent="s378">
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s508" ss:Parent="s378">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="16" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s509" ss:Parent="s378">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s512" ss:Parent="s378">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s513" ss:Parent="s378">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s514" ss:Parent="s378">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s515" ss:Parent="s378">
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="9"
+    ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s516" ss:Parent="s378">
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s517" ss:Parent="s378">
+   <Borders/>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s518" ss:Parent="s378">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s519" ss:Parent="s378">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s520" ss:Parent="s378">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s521" ss:Parent="s378">
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s522" ss:Parent="s378">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s523" ss:Parent="s378">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s524" ss:Parent="s378">
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s525" ss:Parent="s378">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s526" ss:Parent="s378">
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s527" ss:Parent="s378">
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s528" ss:Parent="s378">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s529" ss:Parent="s378">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s530" ss:Parent="s378">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s531" ss:Parent="s378">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s532" ss:Parent="s378">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s534" ss:Parent="s378">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s535" ss:Parent="s378">
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s536" ss:Parent="s378">
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s537" ss:Parent="s378">
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="9" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s538" ss:Parent="s378">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s539" ss:Parent="s378">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Size="9"
+    ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s540" ss:Parent="s378">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s541" ss:Parent="s378">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s542" ss:Parent="s378">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s544" ss:Parent="s378">
+   <Alignment ss:Horizontal="CenterAcrossSelection" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s545" ss:Parent="s378">
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s547" ss:Parent="s378">
+   <Alignment ss:Vertical="Bottom"/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s549" ss:Parent="s378">
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s550" ss:Parent="s378">
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s553" ss:Parent="s378">
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s555" ss:Parent="s378">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s558" ss:Parent="s378">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#FF0000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s571" ss:Parent="s378">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s577" ss:Parent="s378">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s578" ss:Parent="s378">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s582" ss:Parent="s378">
+   <Alignment ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="楷体" x:CharSet="134" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Names>
+  <NamedRange ss:Name="_Fill" ss:RefersTo="=#REF!" ss:Hidden="1"/>
+  <NamedRange ss:Name="AnhDuy" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="ArtsWay" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="BarData" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="BCDSPS_DUCO" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="BCDSPS_DUNO" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="BCDSPS_MATK1" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="BCDSPS_MATK12" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="BCDSPS_MATK123" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="BIENworld" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="BILLIONFAME" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="CHAUTHANHLOI69" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="CHKDVT_So4"
+   ss:RefersTo="='\\Kt1\c\My Documents\MHUONG\2003\[CONGNO-TK1312.xls]NTrang'!#REF!"/>
+  <NamedRange ss:Name="ChongNam" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="CoKhiDM_CanTho" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="CONTRACT"
+   ss:RefersTo="='\\M2\d\RECYCLED\NPROTECT\[SHEETLOW2104.xls]01-7'!R5C1:R183C2"/>
+  <NamedRange ss:Name="CORPORATION" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="CTYHL" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="DANANG" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="data" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="Data11" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="Data41" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="DongHoa" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="DUCTHINH" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="FREUDENBERG" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="GIAOTHONG" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="GIAOTONG"
+   ss:RefersTo="='\\Kt1\c\My Documents\MHUONG\2003\[CONGNO-TK1312.xls]GVtec'!#REF!"/>
+  <NamedRange ss:Name="Golden_Vtec"
+   ss:RefersTo="='\\Kt1\c\My Documents\MHUONG\2003\[CONGNO-TK1312.xls]GVtec'!#REF!"/>
+  <NamedRange ss:Name="GOLDENVTEC"
+   ss:RefersTo="='\\Kt1\c\My Documents\MHUONG\2003\[CONGNO-TK1312.xls]GVtec'!#REF!"/>
+  <NamedRange ss:Name="HISTCO" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="HuaLon" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="Hung_Thinh" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="JLANGSU" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="KEENCHING" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="KhaiHoan"
+   ss:RefersTo="='\\Kt1\c\My Documents\MHUONG\2003\[CONGNO-TK1312.xls]KUNGWON'!#REF!"/>
+  <NamedRange ss:Name="KimAnDong" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="Legamex" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="Minh_Thai" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="MinhHiep" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="N.LUCKSCORPORA" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="NamDinh" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="NAVYHARCOAL" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="NhuaSG"
+   ss:RefersTo="='\\Kt1\c\My Documents\MHUONG\2003\[CONGNO-TK1312.xls]XUANPHONG'!#REF!"/>
+  <NamedRange ss:Name="PhuocLong" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PHUONGDONG" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="QL_DUAN" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="QX98_查询" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="q核销情况" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="SaeHan" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="SaiGon_GeneralService" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="SCHMIDT_VNam" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="Sheet1" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="TAYDO" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="THANGLONG" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="TNTH_CanTho" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="Tran_Hiep_Thanh" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="TungShing" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="Viet_Tan" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="VIETTHANG" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="Vpp" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="XayDung8" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="YKK" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="Z" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="核销情况" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="直线5" ss:RefersTo="=#REF!"/>
+ </Names>
+ <Worksheet ss:Name="sheet1">
+  <Names>
+   <NamedRange ss:Name="Print_Area" ss:RefersTo="=sheet1!R1C1:R47C9"/>
+  </Names>
+  <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="52" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s449" ss:DefaultColumnWidth="63.75">
+   <Column ss:StyleID="s449" ss:AutoFitWidth="0" ss:Width="102.75"/>
+   <Column ss:StyleID="s449" ss:AutoFitWidth="0" ss:Width="35.25"/>
+   <Column ss:StyleID="s449" ss:AutoFitWidth="0" ss:Width="108"/>
+   <Column ss:StyleID="s449" ss:AutoFitWidth="0" ss:Width="63"/>
+   <Column ss:StyleID="s449" ss:AutoFitWidth="0" ss:Width="80.25"/>
+   <Column ss:StyleID="s449" ss:AutoFitWidth="0" ss:Width="70.5"/>
+   <Column ss:StyleID="s449" ss:Width="78.75"/>
+   <Column ss:StyleID="s449" ss:AutoFitWidth="0" ss:Width="58.5"/>
+   <Column ss:StyleID="s449" ss:AutoFitWidth="0" ss:Width="52.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="20.25">
+    <Cell ss:StyleID="s447"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s447"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s448"><Data ss:Type="String">中华人民共和国海关出口货物报关单</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s447"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s447"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s447"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s447"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s447"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s507"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s447"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s447"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s448"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s447"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s447"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s447"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s447"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s447"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s507"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s447">
+    <Cell ss:Index="2" ss:StyleID="s450"><Data ss:Type="String">预录入编号:</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s547"><Data ss:Type="String"></Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">海关编号:</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s549"><Data ss:Type="String"></Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="9" ss:StyleID="s507"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s447">
+    <Cell ss:StyleID="s451"><Data ss:Type="String">出口口岸</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s452"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s451"><Data ss:Type="String">$!{model.portOfExport}</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s453"><Data ss:Type="String">备案号</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s453"><Data ss:Type="String">$!{recordNumber}</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s453"><Data ss:Type="String">出口日期</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s453"><Data ss:Type="String">$!{model.exportDate}</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s453"><Data ss:Type="String">申报日期</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s453"><Data ss:Type="String">$!{model.declareDate}</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s447">
+    <Cell ss:StyleID="s454"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s455"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s456"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s457"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s456"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s458"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s459"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s460"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s461"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s447">
+    <Cell ss:StyleID="s462"><Data ss:Type="String">经营单位</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s463"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s462"><Data ss:Type="String">$!{model.manageUnitNumber}</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s464"><Data ss:Type="String">运输方式</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s464"><Data ss:Type="String">$!{model.transportWay}</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s464"><Data ss:Type="String">运输工具名称</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s464"><Data ss:Type="String">$!{model.transportName}</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s464"><Data ss:Type="String">提运单号</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s464"><Data ss:Type="String">$!{model.deliveryNumber}</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s447">
+    <Cell ss:StyleID="s466"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s467"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s462"><Data ss:Type="String">$!{model.manageUnit}</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s468"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s469"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s470"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s471"><Data ss:Type="String">&#10;</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s534"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s461"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s447">
+    <Cell ss:StyleID="s472"><Data ss:Type="String">发货单位</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s473"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s462"><Data ss:Type="String">$!{model.forwardingUnitNumber}</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s464"><Data ss:Type="String">贸易方式</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s550"><Data ss:Type="String">进料非对口</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s464"><Data ss:Type="String">征免性质</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s550"><Data ss:Type="String">保税区</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s464"><Data ss:Type="String">结汇方式</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s553"><Data ss:Type="String"></Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s447">
+    <Cell ss:StyleID="s474"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s467"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s462"><Data ss:Type="String">$!{model.forwardingUnit}</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s457"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s469"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s468"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s456"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s470"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s461"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s447">
+    <Cell ss:StyleID="s472"><Data ss:Type="String">许可证号</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s550"><Data ss:Type="String"></Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s464"><Data ss:Type="String">运抵国(地区)</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s464"><Data ss:Type="String">运抵国$</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s464"><Data ss:Type="String">指运港</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s464"><Data ss:Type="String">指运港$</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s475"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s464"><Data ss:Type="String">境内货源地</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s553"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s447">
+    <Cell ss:StyleID="s476"><Data ss:Type="String"> </Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s456"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s477"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="5" ss:StyleID="s478"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s479"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s480"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s464"><Data ss:Type="String">境内货源地$</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s481"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s447">
+    <Cell ss:StyleID="s472"><Data ss:Type="String">批准文号</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s550"><Data ss:Type="String"></Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s482"><Data ss:Type="String">成交方式    </Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s464"><Data ss:Type="String">运费</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s555"><Data ss:Type="String" x:Ticked="1"></Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s464"><Data ss:Type="String">保费</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s550"><Data ss:Type="String" x:Ticked="1"></Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s464"><Data ss:Type="String">杂费</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s545"><Data ss:Type="String" x:Ticked="1"></Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s447">
+    <Cell ss:StyleID="s484"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s456"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s482"><Data ss:Type="String">$!{model.tradeWay}    </Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s486"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s487"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s488"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s487"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s489"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s490"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s447">
+    <Cell ss:StyleID="s472"><Data ss:Type="String">合同协议号</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s535"><Data ss:Type="String" x:Ticked="1"></Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s482"><Data ss:Type="String">件数    </Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s464"><Data ss:Type="String">包装种类</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s464"><Data ss:Type="String">$!{model.packageKind}</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s464"><Data ss:Type="String">毛重(公斤)</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s464"><Data ss:Type="String">$!{model.roughWeight}</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s464"><Data ss:Type="String">净重(公斤)</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s464"><Data ss:Type="String">$!{model.netWeight}</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s447">
+    <Cell ss:StyleID="s491"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s456"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s482"><Data ss:Type="String">$!{model.packageNumber}</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s468"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s456"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s493"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s494"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s495"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s461"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s447">
+    <Cell ss:StyleID="s472"><Data ss:Type="String">集装箱号</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s550"><Data ss:Type="String" x:Ticked="1"></Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s464"><Data ss:Type="String">随附单据</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s544"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s544"><Data ss:Type="String"></Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s473"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s496"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s464"><Data ss:Type="String">生产厂家</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s545"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s447">
+    <Cell ss:StyleID="s491"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s456"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s457"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s497"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s498"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s498"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s456"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s468"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s461"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s447">
+    <Cell ss:StyleID="s472"><Data ss:Type="String">标记唛码及备注</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s499"><Data ss:Type="String"></Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s500"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s536"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s500"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s500"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s500"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s500"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s501"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s447">
+    <Cell ss:StyleID="s502"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s503"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s503"><Data ss:Type="String"></Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s504"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s503"><Data ss:Type="String"></Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s504"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s504"><Data ss:Type="String"></Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s504"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s505"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s447">
+    <Cell ss:StyleID="s462"><Data ss:Type="String">随附单证</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:MergeAcross="7" ss:StyleID="m456045633648"><Data ss:Type="String"></Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s447">
+    <Cell ss:StyleID="s508"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:MergeAcross="7" ss:StyleID="m456045633668"><Data ss:Type="String"></Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s447">
+    <Cell ss:StyleID="s558"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:MergeAcross="7" ss:StyleID="m456045633688"><NamedCell
+      ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s447">
+    <Cell ss:StyleID="s509"><Data ss:Type="String"></Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:MergeAcross="7" ss:StyleID="m456045633708"><Data ss:Type="String"></Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s447">
+    <Cell ss:StyleID="s571"><Data ss:Type="String">项号   商品编号</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s513"><Data ss:Type="String">商品名称、规格型号</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s512"><Data ss:Type="String">数量及单位</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s513"><Data ss:Type="String">最终目的国(地区)</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s513"><Data ss:Type="String">单价</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s513"><Data ss:Type="String">总价</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s513"><Data ss:Type="String">币制</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s514"><Data ss:Type="String">征免</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="63.75" ss:StyleID="s447">
+    <Cell ss:StyleID="s582"><Data ss:Type="String">项号$   商品编号$</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s515"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s578"><Data ss:Type="String">商品名称$    规格型号$</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s578"><Data ss:Type="String">最终目的国(地区)$</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s578"><Data ss:Type="String">$!{model.unitPrice}</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s578"><Data ss:Type="String">$!{model.sumPrice}</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s578"><Data ss:Type="String">币制$</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s577"><Data ss:Type="String">征免$</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="63.75" ss:StyleID="s447">
+    <Cell ss:StyleID="s538"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s515"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s539"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s540"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s541"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s541"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s541"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s541"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s542"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="63.75" ss:StyleID="s447">
+    <Cell ss:StyleID="s538"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s515"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s539"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s540"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s541"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s541"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s541"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s541"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s542"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="63.75" ss:StyleID="s447">
+    <Cell ss:StyleID="s538"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s515"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s539"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s540"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s541"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s541"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s541"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s541"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s542"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="63.75" ss:StyleID="s447">
+    <Cell ss:StyleID="s541"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s537"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s539"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s541"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s541"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s541"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s541"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s541"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s542"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s447">
+    <Cell ss:StyleID="s472"><Data ss:Type="String">税费征收情况</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s500"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s500"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s500"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s500"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s500"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s500"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s500"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s501"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s447">
+    <Cell ss:StyleID="s462"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s516"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s447">
+    <Cell ss:StyleID="s462"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s516"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s447">
+    <Cell ss:StyleID="s462"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s516"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s447">
+    <Cell ss:StyleID="s462"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s516"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s447">
+    <Cell ss:StyleID="s518"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s519"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s519"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s519"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s519"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s519"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s519"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s519"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s520"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s447">
+    <Cell ss:StyleID="s472"><Data ss:Type="String">录入员</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s465"><Data ss:Type="String">录入单位</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s500"><Data ss:Type="String">  兹声明以上申报无讹并承担法律责任</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s500"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s465"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s464"><Data ss:Type="String">海关审单批注及放行日期(签章)</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s500"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s500"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s501"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s447">
+    <Cell ss:StyleID="s462"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s521"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s521"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s522"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s516"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s447">
+    <Cell ss:StyleID="s518"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s523"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s521"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s522"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s516"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s447">
+    <Cell ss:StyleID="s462"><Data ss:Type="String">报关员</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s521"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s522"><Data ss:Type="String">审单</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><Data ss:Type="String">审价</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s516"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s447">
+    <Cell ss:StyleID="s506"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s524"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s521"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s522"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s516"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s447">
+    <Cell ss:StyleID="s462"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s521"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s525"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s519"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s519"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s520"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s447">
+    <Cell ss:StyleID="s462"><Data ss:Type="String">单位地址</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s521"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s464"><Data ss:Type="String">征税</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s500"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s500"><Data ss:Type="String">统计</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s501"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s527">
+    <Cell ss:StyleID="s506"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s526"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s521"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s522"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s516"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s527">
+    <Cell ss:StyleID="s462"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s521"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s525"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s519"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s519"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s520"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s527">
+    <Cell ss:StyleID="s462"><Data ss:Type="String">邮编</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><Data ss:Type="String">电话</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s521"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s464"><Data ss:Type="String">查验</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s500"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s500"><Data ss:Type="String">放行</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s501"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s527">
+    <Cell ss:StyleID="s462"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s521"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s522"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s517"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s516"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s527">
+    <Cell ss:StyleID="s528"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s529"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s529"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s529"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s530"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s531"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s529"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s529"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s532"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s447"/>
+    <Cell ss:StyleID="s447"/>
+    <Cell ss:StyleID="s447"/>
+    <Cell ss:StyleID="s447"/>
+    <Cell ss:StyleID="s447"/>
+    <Cell ss:StyleID="s447"/>
+    <Cell ss:StyleID="s447"/>
+    <Cell ss:StyleID="s447"/>
+    <Cell ss:StyleID="s447"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s527"/>
+    <Cell ss:StyleID="s527"/>
+    <Cell ss:StyleID="s527"/>
+    <Cell ss:StyleID="s527"/>
+    <Cell ss:StyleID="s527"/>
+    <Cell ss:StyleID="s527"/>
+    <Cell ss:StyleID="s527"/>
+    <Cell ss:StyleID="s527"/>
+    <Cell ss:StyleID="s527"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s527"/>
+    <Cell ss:StyleID="s527"/>
+    <Cell ss:StyleID="s527"/>
+    <Cell ss:StyleID="s527"/>
+    <Cell ss:StyleID="s527"/>
+    <Cell ss:StyleID="s527"/>
+    <Cell ss:StyleID="s527"/>
+    <Cell ss:StyleID="s527"/>
+    <Cell ss:StyleID="s527"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s527"/>
+    <Cell ss:StyleID="s527"/>
+    <Cell ss:StyleID="s527"/>
+    <Cell ss:StyleID="s527"/>
+    <Cell ss:StyleID="s527"/>
+    <Cell ss:StyleID="s527"/>
+    <Cell ss:StyleID="s527"/>
+    <Cell ss:StyleID="s527"/>
+    <Cell ss:StyleID="s527"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s527"/>
+    <Cell ss:StyleID="s527"/>
+    <Cell ss:StyleID="s527"/>
+    <Cell ss:StyleID="s527"/>
+    <Cell ss:StyleID="s527"/>
+    <Cell ss:StyleID="s527"/>
+    <Cell ss:StyleID="s527"/>
+    <Cell ss:StyleID="s527"/>
+    <Cell ss:StyleID="s527"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.51181102362204722"/>
+    <Footer x:Margin="0.51181102362204722"/>
+    <PageMargins x:Bottom="0.17" x:Left="0.16" x:Right="0" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <FitToPage/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <Scale>89</Scale>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <PageBreakZoom>100</PageBreakZoom>
+   <Selected/>
+   <TopRowVisible>3</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>11</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

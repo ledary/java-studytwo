@@ -1,17 +1,16 @@
 package dubbo.wk.utils;
 
 import dubbo.wk.model.OrderEmailModel;
+import dubbo.wk.model.WordTemplateModel;
+import dubbo.wk.service.FileService;
+import dubbo.wk.service.impl.FileServiceImpl;
 import org.apache.velocity.Template;
 import org.apache.velocity.VelocityContext;
 import org.apache.velocity.app.Velocity;
 import org.apache.velocity.app.VelocityEngine;
 import org.junit.Test;
-import org.springframework.stereotype.Component;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.OutputStreamWriter;
-import java.io.StringWriter;
+import java.io.*;
 import java.util.Properties;
 
 /**
@@ -80,5 +79,32 @@ public class VelocityUtils {
 //        path ="vm"   所有的模板文件放在 resource/vm文件夹下
         Velocity.mergeTemplate(path + File.separator + tplName, "UTF-8", context, w);
         return w.toString();
+    }
+
+
+    public <T> void  velocityTemplate(T t, String tplName,Writer writer) {
+//        properties可以使用spring加载properties文件
+        Properties p = new Properties();
+        p.put("file.resource.loader.class", "org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader");
+        Velocity.init(p);
+        VelocityContext context = new VelocityContext();
+        context.put("model", t);
+        Template template = Velocity.getTemplate(path + File.separator + tplName,"utf-8");
+        template.merge(context,writer);
+    }
+
+    public static void main(String[] args)throws Exception {
+
+        String path = Thread.currentThread().getContextClassLoader().getResource("").getPath().toString();
+        String fileNam  = path + File.separator + "vm" + File.separator + "word.vm";
+        StringWriter writer = new StringWriter();
+       VelocityUtils utils = new VelocityUtils();
+       FileService service = new FileServiceImpl();
+        WordTemplateModel wordTemplateModel = service.queryWordTemplate();
+       utils.velocityTemplate(wordTemplateModel,"word.vm",writer);
+        System.out.println(writer.toString());
+
+
+
     }
 }

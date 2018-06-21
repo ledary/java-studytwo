@@ -1,5 +1,6 @@
 package dubbo.wk.utils.excel;
 
+import com.fasterxml.jackson.databind.exc.InvalidFormatException;
 import org.apache.poi.hssf.usermodel.*;
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -8,10 +9,7 @@ import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletResponse;
 import java.io.*;
 import java.lang.reflect.Field;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * Created by wgp on 2018/6/20.
@@ -241,23 +239,19 @@ public class ExcelUtils<T> {
 
     }
 
-    public List<T> importExcel(String fileName, String sheetName, InputStream input) {
+    public List<T> importExcel(String fileName, String sheetName, InputStream input) throws org.apache.poi.openxml4j.exceptions.InvalidFormatException {
         int maxCol = 0;
         String xls = ".xls";
         String xlsx = ".xlsx";
         List<T> list = new ArrayList<>();
         try {
-            Workbook workbook = null;
-            String fileType = fileName.substring(fileName.lastIndexOf("."), fileName.length());
-            if ( xls.equals(fileType.trim().toLowerCase())) {
-                // 创建 Excel 2003 工作簿对象
-                workbook = new HSSFWorkbook(input);
-            } else if (xlsx.equals(fileType.trim().toLowerCase())) {
-                //创建 Excel 2007 工作簿对象
-                workbook = new XSSFWorkbook(input);
-            }//解决Excel导入的兼容2003和2007版本的问题
-            Sheet sheet = workbook.getSheet(sheetName);
-            if (!("").equals(sheetName.trim())) {
+//            Workbook workbook = null;
+            if(fileName == null && !fileName.contains(".")){
+                return null;
+            }
+            Workbook workbook = WorkbookFactory.create(input);
+            Sheet sheet = null;
+            if ( sheetName == null || !("").equals(sheetName.trim())) {
                 // 如果指定sheet名,则取指定sheet中的内容.
                 sheet = workbook.getSheet(sheetName);
             }
@@ -268,8 +262,6 @@ public class ExcelUtils<T> {
             int rows = sheet.getPhysicalNumberOfRows();
 
             if (rows > 0) {
-                // 有数据时才处理
-                // Field[] allFields = clazz.getDeclaredFields();// 得到类的所有field.
                 List<Field> allFields = getMappedFiled(clazz, null);
 
                 // 定义一个map用于存放列的序号和field.
@@ -288,8 +280,6 @@ public class ExcelUtils<T> {
                 // 从第2行开始取数据,默认第一行是表头.
                 for (int i = 1; i < rows; i++) {
                     Row row = sheet.getRow(i);
-                    // int cellNum = row.getPhysicalNumberOfCells();
-                    // int cellNum = row.getLastCellNum();
                     T entity = null;
                     for (int j = 0; j < maxCol; j++) {
                         Cell cell = row.getCell(j);
@@ -344,7 +334,8 @@ public class ExcelUtils<T> {
 
         } catch (IOException e) {
             e.printStackTrace();
-        } catch (InstantiationException e) {
+        }
+        catch (InstantiationException e) {
             e.printStackTrace();
         } catch (IllegalAccessException e) {
             e.printStackTrace();
