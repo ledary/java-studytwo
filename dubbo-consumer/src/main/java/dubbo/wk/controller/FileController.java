@@ -38,10 +38,17 @@ public class FileController {
     @Value("temp")
     private String tempFile;
 
+
+    /**
+     * 以文件方式生成Excel
+     * @param request
+     * @param response
+     * @return
+     */
     @RequestMapping(value = "exportExcel",method = RequestMethod.GET,produces = "application/json;charset=UTF-8")
     @ResponseBody
     public Result exportFile(HttpServletRequest request, HttpServletResponse response){
-        Result result = new Result(Constant.FAIL_CODE);
+        Result result = new Result();
         List<ExcelModel> list = new ArrayList<>(64);
         for(int i=0;i<20;i++){
             ExcelModel excelModel = new ExcelModel();
@@ -83,7 +90,7 @@ public class FileController {
 
             //重置response输出流
             response.reset();
-            response.setContentType("application/octet-stream;charset=utf-8");
+//            response.setContentType("application/octet-stream;charset=utf-8");
             response.setHeader("Content-Disposition", "attachment;filename=" + new String(zipFile.getName().getBytes("gb2312"), "ISO8859-1"));
 
             //把zip文件的数据 放入response输出流
@@ -113,11 +120,68 @@ public class FileController {
         }
     }
 
-    @RequestMapping("test")
-    @ResponseBody
-    public Result test(){
-        return new Result(Constant.SUCCESS_CODE);
-    }
 
+    /**
+     * 以字节方式生成Excel  打包
+     * @param request
+     * @param response
+     * @return
+     */
+    @RequestMapping(value = "exportExcel2",method = RequestMethod.GET,produces = "application/json;charset=UTF-8")
+    @ResponseBody
+    public Result exportFile2(HttpServletRequest request, HttpServletResponse response){
+        Result result = new Result();
+        List<ExcelModel> list = new ArrayList<>(64);
+        for(int i=0;i<20;i++){
+            ExcelModel excelModel = new ExcelModel();
+            excelModel.setAgreementNumber("agree" + i);
+            excelModel.setCustomsNumber("customs" + i);
+            excelModel.setEnterpriseNumber("enter" + i);
+            String date = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
+            excelModel.setDeclareDate(date);
+            excelModel.setPassDate(date);
+            excelModel.setRecordNumber("record" + i);
+            excelModel.setTradeWay("FOB" + i);
+            excelModel.setTransportWay("油罐运输" + i);
+            list.add(excelModel);
+        }
+
+        try{
+            HSSFWorkbook workbook = ExcelUtils.makeExcel(list,"测试Sheet",response,false);
+
+            //获取临时目录
+            String path = Thread.currentThread().getContextClassLoader().getResource("").getPath().toString() + File.separator + tempFile;
+            //创建压缩包
+            File zipFile = new File(path + File.separator + "temp.zip");
+            //压缩工具类，生成压缩包文件
+            ZipFileUtils.zipFile(workbook.getBytes(),zipFile,"Excel1.xls");
+
+            //重置response输出流
+            response.reset();
+            response.setContentType("application/octet-stream;charset=utf-8");
+            response.setHeader("Content-Disposition", "attachment;filename=" + new String(zipFile.getName().getBytes("gb2312"), "ISO8859-1"));
+
+            //把zip文件的数据 放入response输出流
+            OutputStream responseOut = response.getOutputStream();
+            FileInputStream inStream = new FileInputStream(zipFile);
+            byte[] buf = new byte[4096];
+            int readLength;
+            while (((readLength = inStream.read(buf)) != -1)) {
+                responseOut.write(buf, 0, readLength);
+            }
+            //关闭所有的输入  输出流
+            inStream.close();
+            responseOut.close();
+            //删除临时文件
+            zipFile.delete();
+
+            result.setObj(true);
+            result.setCode(Constant.SUCCESS_CODE);
+        }catch (Exception e){
+            e.printStackTrace();
+        }finally {
+            return result;
+        }
+    }
 
 }

@@ -26,7 +26,7 @@ public class SyncController {
     @ResponseBody
     public Result<Boolean> asyncSendEmail() {
         Future<Boolean> future = asyncService.asyncSendEmail();
-        Result<Boolean> result = Result.setTrue();
+        Result<Boolean> result =new Result<>();
         result.setObj(true);
 
         try {
@@ -57,7 +57,7 @@ public class SyncController {
     public Result<Boolean> syncVoidSendEmail() {
         asyncService.voidSendEmail();
         System.out.println("异步方法执行后的执行内容");
-        Result<Boolean> result = Result.setTrue();
+        Result<Boolean> result = new Result<>();
         result.setObj(true);
         return result;
     }

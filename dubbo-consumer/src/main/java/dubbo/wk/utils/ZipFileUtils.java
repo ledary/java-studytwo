@@ -1,9 +1,6 @@
 package dubbo.wk.utils;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.InputStream;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.zip.ZipEntry;
@@ -56,6 +53,12 @@ public class ZipFileUtils {
         return list;
     }
 
+
+    /**
+     * 根據文件的路徑 生成壓縮包
+     * @param files
+     * @param file
+     */
     public static void zipFile(List<String> files,File file ){
         try{
             ZipOutputStream  zipOut = new ZipOutputStream(new FileOutputStream(file));
@@ -69,6 +72,25 @@ public class ZipFileUtils {
                 }
                 in.close();
             }
+            zipOut.close();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+
+    }
+
+    /**
+     * 根據字節生成壓縮包
+     * @param bytes
+     * @param file
+     * @param fileName
+     */
+    public static void zipFile(byte[] bytes,File file,String fileName){
+        try{
+            ZipOutputStream  zipOut = new ZipOutputStream(new FileOutputStream(file));
+            ZipEntry ze = new ZipEntry(fileName);
+            zipOut.putNextEntry(ze);
+            zipOut.write(bytes);
             zipOut.close();
         }catch (Exception e){
             e.printStackTrace();

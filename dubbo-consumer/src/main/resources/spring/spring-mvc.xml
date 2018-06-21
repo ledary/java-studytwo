@@ -13,6 +13,8 @@
     <bean class="springfox.documentation.swagger2.configuration.Swagger2DocumentationConfiguration" id="swagger2Config"/>
     <mvc:resources location="classpath:/META-INF/resources/" mapping="swagger-ui.html"/>
     <mvc:resources location="classpath:/META-INF/resources/webjars/" mapping="/webjars/**"/>
+
+
     <mvc:annotation-driven/>
     <context:component-scan base-package="dubbo.wk.controller"/>
 
