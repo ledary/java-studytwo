@@ -5,6 +5,7 @@ import dubbo.wk.utils.Result;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.concurrent.Future;
@@ -22,7 +23,7 @@ public class SyncController {
     @Autowired
     private AsyncService asyncService;
 
-    @RequestMapping("/syncSendEmail")
+    @RequestMapping(value = "/syncSendEmail",method = RequestMethod.GET)
     @ResponseBody
     public Result<Boolean> asyncSendEmail() {
         Future<Boolean> future = asyncService.asyncSendEmail();
@@ -52,7 +53,7 @@ public class SyncController {
     /*
     无返回值的异步方法
      */
-    @RequestMapping("/voidSendEmail")
+    @RequestMapping(value = "/voidSendEmail",method = RequestMethod.GET)
     @ResponseBody
     public Result<Boolean> syncVoidSendEmail() {
         asyncService.voidSendEmail();

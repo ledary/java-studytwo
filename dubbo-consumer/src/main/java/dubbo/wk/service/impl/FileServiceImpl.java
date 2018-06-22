@@ -1,6 +1,7 @@
 package dubbo.wk.service.impl;
 
 import dubbo.wk.model.ExcelTemplateModel;
+import dubbo.wk.model.PdfTemplateModel;
 import dubbo.wk.model.WordTemplateModel;
 import dubbo.wk.service.FileService;
 import dubbo.wk.utils.excel.ExcelTemplateDesc;
@@ -55,4 +56,17 @@ public class FileServiceImpl implements FileService {
        model.setDeclareDate("申报日期");
        return model;
    }
+
+    @Override
+    public PdfTemplateModel queryPdfTemplate() {
+       PdfTemplateModel model = new PdfTemplateModel();
+        model.setAge(24);
+        model.setCreateDate("2018-04-02");
+        model.setDutyPerson("ledary");
+        model.setEndnode("測試");
+        model.setGoal("my Goal");
+        model.setPlan("计划赶不上变化");
+        model.setName("武刚鹏");
+        return  model;
+    }
 }

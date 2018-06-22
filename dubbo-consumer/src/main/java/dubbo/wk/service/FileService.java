@@ -1,6 +1,7 @@
 package dubbo.wk.service;
 
 import dubbo.wk.model.ExcelTemplateModel;
+import dubbo.wk.model.PdfTemplateModel;
 import dubbo.wk.model.WordTemplateModel;
 
 /**
@@ -10,4 +11,5 @@ public interface FileService {
     ExcelTemplateModel queryExcelTemplate();
     WordTemplateModel queryWordTemplate();
     ExcelTemplateModel queryExcelTemplateByXls();
+    PdfTemplateModel queryPdfTemplate();
 }

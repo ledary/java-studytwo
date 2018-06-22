@@ -20,7 +20,6 @@ import java.util.Properties;
  **/
 
 public class VelocityUtils {
-    private static final  String path="vm";
 
 //    Velocity是单一实例。放到静态代码块里
     static{
@@ -69,7 +68,7 @@ public class VelocityUtils {
         VelocityContext context = new VelocityContext();
         context.put("model", model);
         StringWriter w = new StringWriter();
-        Velocity.mergeTemplate(path + File.separator + tplName, "UTF-8", context, w);
+        Velocity.mergeTemplate(  tplName, "UTF-8", context, w);
         return w.toString();
     }
 
@@ -77,7 +76,7 @@ public class VelocityUtils {
     public <T> void  velocityTemplate(T t, String tplName,Writer writer) {
         VelocityContext context = new VelocityContext();
         context.put("model", t);
-        Template template = Velocity.getTemplate(path + File.separator + tplName,"utf-8");
+        Template template = Velocity.getTemplate( tplName,"utf-8");
         template.merge(context,writer);
     }
 

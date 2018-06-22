@@ -3,8 +3,10 @@ package dubbo.wk.controller;
 import dubbo.wk.constants.Constant;
 import dubbo.wk.model.ExcelTemplateModel;
 import dubbo.wk.model.ExcelModel;
+import dubbo.wk.model.PdfTemplateModel;
 import dubbo.wk.model.WordTemplateModel;
 import dubbo.wk.service.FileService;
+import dubbo.wk.utils.PdfUtils;
 import dubbo.wk.utils.VelocityUtils;
 import dubbo.wk.utils.excel.ExcelUtils;
 import dubbo.wk.utils.Result;
@@ -52,8 +54,8 @@ public class FileController {
     @Value("${excel.xls.template}")
     private String xlsTemplate;
 
-    @Value("${vm.file}")
-    private  String vmFile;
+    @Value("${pdf.template}")
+    private String pdfTemplate;
 
     @Autowired
     private FileService fileService;
@@ -134,7 +136,7 @@ public class FileController {
         }
     }
 
-    //导入
+    //导入Excel文件
     @RequestMapping(value = "importExcel",method = RequestMethod.POST)
     @ResponseBody
     public Result importExcel(@RequestParam("files")List<MultipartFile> files){
@@ -170,7 +172,7 @@ public class FileController {
 
 
 
-    //根据Excel导出模板
+    //根据Excel  xml  velocity导出Excel文件
     @RequestMapping(value = "exportExcelByTemplate",method = RequestMethod.GET)
     @ResponseBody
     public void exportExcelByTemplate(HttpServletResponse response){
@@ -207,7 +209,7 @@ public class FileController {
 
 
 
-    //根据Word模板导出数据
+    //根据Word  vm模板  Velocity导出word文件
     @RequestMapping(value = "exportWordByTemplate",method = RequestMethod.GET)
     @ResponseBody
     public void exportWordByTemplate(HttpServletResponse response,HttpServletRequest request){
@@ -241,7 +243,10 @@ public class FileController {
     }
 
 
-
+    /**
+     * 根据Excel模板导出Excel文件
+     * @param response
+     */
     @RequestMapping(value = "exportByXls",method = RequestMethod.GET)
     public void exportExcelByXlsTemplate(HttpServletResponse response){
         try{
@@ -250,7 +255,7 @@ public class FileController {
             OutputStream os = response.getOutputStream();
             ExcelTemplateModel model = fileService.queryExcelTemplateByXls();
             ExcelUtils<ExcelTemplateModel> utils = new ExcelUtils<>(ExcelTemplateModel.class);
-            utils.makeExcelByXlsTemplate(model,vmFile + File.separator + xlsTemplate,os);
+            utils.makeExcelByXlsTemplate(model,  xlsTemplate,os);
            os.flush();
            os.close();
 
@@ -258,6 +263,24 @@ public class FileController {
             ex.printStackTrace();
         }
 
+    }
+
+    /**
+     * 根据PDF模板导出PDF文件
+     * @param response
+     */
+    @RequestMapping(value = "exportPdfByTemplate",method =  RequestMethod.GET)
+    public void exportPdfByTemplate(HttpServletResponse response){
+        response.setContentType("application/pdf");
+        try{
+            OutputStream out = response.getOutputStream();
+            PdfTemplateModel model = fileService.queryPdfTemplate();
+            PdfUtils.makePdf(model, pdfTemplate,out);
+            out.close();
+        }catch (Exception ex){
+            logger.error("導出PDF異常",ex);
+            ex.printStackTrace();
+        }
     }
 
 }
