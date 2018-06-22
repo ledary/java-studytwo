@@ -1,4 +1,4 @@
-package dubbo.wk.utils;
+package dubbo.wk.model;
 
 /**
  * @author WGP

@@ -1,5 +1,6 @@
 package dubbo.wk.utils;
 
+import dubbo.wk.model.EmailModel;
 import dubbo.wk.model.OrderEmailModel;
 import org.junit.Test;
 

@@ -2,18 +2,13 @@ package dubbo.wk.service.impl;
 
 import dubbo.wk.model.OrderEmailModel;
 import dubbo.wk.service.AsyncService;
-import dubbo.wk.utils.EmailModel;
+import dubbo.wk.model.EmailModel;
 import dubbo.wk.utils.EmailUtils;
 import dubbo.wk.utils.VelocityUtils;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.scheduling.annotation.AsyncResult;
-import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.stereotype.Service;
 
-import java.io.File;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
-import java.util.Locale;
 import java.util.concurrent.Future;
 
 /**
