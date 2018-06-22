@@ -22,20 +22,22 @@ import java.util.Properties;
 public class VelocityUtils {
     private static final  String path="vm";
 
+//    Velocity是单一实例。放到静态代码块里
+    static{
+        Properties p = new Properties();
+        p.put("file.resource.loader.class", "org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader");
+        Velocity.init(p);
+    }
 
 
     /*
     创建一个新的运行实例 RuntimeInstance ，
     每个velocity引擎都会拥有各自的实例，互不干扰。
      */
-
-
     @Test
     public void test0() {
         Properties p = new Properties();
-//        p.put("file.resource.loader.class", "org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader");
         p.setProperty("file.resource.loader.class", "org.apache.velocity.runtime.resource.loader.FileResourceLoader");
-//        VelocityEngine velocity = new VelocityEngine(p);
         VelocityEngine velocity = new VelocityEngine(p);
         VelocityContext context = new VelocityContext();
         context.put("name", "czy");
@@ -51,11 +53,6 @@ public class VelocityUtils {
     }
 
     public void test1() {
-        Properties p = new Properties();
-//        p.put("file.resource.loader.class", "org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader");
-        p.put("file.resource.loader.class", "org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader");
-//        VelocityEngine velocity = new VelocityEngine(p);
-        Velocity.init(p);
         VelocityContext context = new VelocityContext();
         context.put("name", "武刚鹏");
         context.put("project", "Velocity代码");
@@ -69,24 +66,15 @@ public class VelocityUtils {
     }
 
     public String velocityContent(OrderEmailModel model,String tplName) {
-//        properties可以使用spring加载properties文件
-        Properties p = new Properties();
-        p.put("file.resource.loader.class", "org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader");
-        Velocity.init(p);
         VelocityContext context = new VelocityContext();
         context.put("model", model);
         StringWriter w = new StringWriter();
-//        path ="vm"   所有的模板文件放在 resource/vm文件夹下
         Velocity.mergeTemplate(path + File.separator + tplName, "UTF-8", context, w);
         return w.toString();
     }
 
 
     public <T> void  velocityTemplate(T t, String tplName,Writer writer) {
-//        properties可以使用spring加载properties文件
-        Properties p = new Properties();
-        p.put("file.resource.loader.class", "org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader");
-        Velocity.init(p);
         VelocityContext context = new VelocityContext();
         context.put("model", t);
         Template template = Velocity.getTemplate(path + File.separator + tplName,"utf-8");
