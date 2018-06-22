@@ -24,5 +24,6 @@ utils工具包
     Excel导入，导出，根据模板导出工具方法
     利用velocity根据模板导出word,excel
     Pdf工具类根据模板导出PDF
+    config包下  spring的解析占位符的工具类
 
 

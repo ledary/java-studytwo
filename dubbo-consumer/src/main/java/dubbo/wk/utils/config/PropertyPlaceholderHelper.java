@@ -12,7 +12,7 @@ import java.util.*;
 public class PropertyPlaceholderHelper {
     private static final Map<String, String> wellKnownSimplePrefixes = new HashMap<>(16);
 
-    public static PropertyPlaceholderHelper defaultHolder = new PropertyPlaceholderHelper("$!{", "}");
+    public static PropertyPlaceholderHelper defaultHolder = new PropertyPlaceholderHelper("${", "}");
 
     private final String placeholderPrefix;
     private final String placeholderSuffix;
@@ -145,11 +145,17 @@ public class PropertyPlaceholderHelper {
     }
 
     public static void main(String[] args) {
-          String  a = "dfd{}dfdf";
-          int startIndex = a.indexOf("{}");
-        System.out.println(startIndex);
-        StringBuffer buffer = new StringBuffer(a);
-        int len = "{}".length() + startIndex;
-        System.out.println(len);
+        Properties properties = new Properties();
+        properties.setProperty("aa", "dd");
+        String value = PropertyPlaceholderHelper.defaultHolder.replacePlaceholders("${aa}", properties);
+        System.out.println(value);
+
+
+        Properties properties2 = new Properties();
+        properties2.setProperty("aa2", "dd2");
+        String value2 = new PropertyPlaceholderHelper("$!{","}",null,null)
+                .replacePlaceholders("$!{aa2}",properties2);
+        System.out.println(value2);
+
     }
 }
