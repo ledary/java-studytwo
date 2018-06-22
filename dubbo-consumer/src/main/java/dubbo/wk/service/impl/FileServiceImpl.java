@@ -3,6 +3,7 @@ package dubbo.wk.service.impl;
 import dubbo.wk.model.ExcelTemplateModel;
 import dubbo.wk.model.WordTemplateModel;
 import dubbo.wk.service.FileService;
+import dubbo.wk.utils.excel.ExcelTemplateDesc;
 import org.springframework.stereotype.Service;
 
 /**
@@ -38,5 +39,20 @@ public class FileServiceImpl implements FileService {
       model.setQuantity("100.032");
       model.setWeight("290.3");
       return model;
+   }
+
+
+   @Override
+   public ExcelTemplateModel queryExcelTemplateByXls(){
+       ExcelTemplateModel model = new ExcelTemplateModel();
+       model.setPortOfExport("出口口岸");
+       model.setRecordNumber("备案号");
+       model.setExportDate("出口日期");
+       model.setManageUnit("经营单位");
+       model.setTradeWay("运输方式");
+       model.setTransportName("交通工具名称");
+       model.setPackageNumber("提运单号");
+       model.setDeclareDate("申报日期");
+       return model;
    }
 }

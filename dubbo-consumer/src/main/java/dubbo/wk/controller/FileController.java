@@ -49,6 +49,12 @@ public class FileController {
     @Value("${word.template}")
     private String wordTemplate;
 
+    @Value("${excel.xls.template}")
+    private String xlsTemplate;
+
+    @Value("${vm.file}")
+    private  String vmFile;
+
     @Autowired
     private FileService fileService;
 
@@ -230,6 +236,26 @@ public class FileController {
         }catch (Exception e){
             e.printStackTrace();
             logger.error("异常",e);
+        }
+
+    }
+
+
+
+    @RequestMapping(value = "exportByXls",method = RequestMethod.GET)
+    public void exportExcelByXlsTemplate(HttpServletResponse response){
+        try{
+            response.setHeader("Content-disposition", "attachment; filename=\"" + URLEncoder.encode("xxx.xls", "utf-8") + "\"");
+            response.setContentType("application/vnd.ms-excel;charset=UTF-8");
+            OutputStream os = response.getOutputStream();
+            ExcelTemplateModel model = fileService.queryExcelTemplateByXls();
+            ExcelUtils<ExcelTemplateModel> utils = new ExcelUtils<>(ExcelTemplateModel.class);
+            utils.makeExcelByXlsTemplate(model,vmFile + File.separator + xlsTemplate,os);
+           os.flush();
+           os.close();
+
+        }catch (Exception ex){
+            ex.printStackTrace();
         }
 
     }

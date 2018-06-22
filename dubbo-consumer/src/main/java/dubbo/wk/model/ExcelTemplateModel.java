@@ -1,50 +1,74 @@
 package dubbo.wk.model;
 
+import dubbo.wk.utils.excel.ExcelDesc;
+import dubbo.wk.utils.excel.ExcelTemplateDesc;
+
 /**
  * Created by wgp on 2018/6/21.
  */
 public class ExcelTemplateModel {
     //出口口岸
+    @ExcelDesc(value = "portOfExport")
     private String portOfExport;
     //备案号
+    @ExcelDesc(value = "recordNumber")
     private String recordNumber;
     //申报日期
+    @ExcelDesc(value = "declareDate")
     private String declareDate;
     //出口日期
+    @ExcelDesc(value = "exportDate")
     private String exportDate;
     //经营单位号
+    @ExcelDesc(value = "manageUnitNumber")
     private String manageUnitNumber;
     //交通工具名称
+    @ExcelDesc(value = "transportName")
     private String transportName;
     //运输方式
+    @ExcelDesc(value = "transportWay")
     private String transportWay;
     //发货单位号
+    @ExcelDesc(value = "forwardingUnitNumber")
     private String forwardingUnitNumber;
     //经营单位号
+    @ExcelDesc(value = "deliveryNumber")
     private String deliveryNumber;
     //发货单位
+    @ExcelDesc(value = "forwardingUnit")
     private String forwardingUnit;
     //毛重
+    @ExcelDesc(value = "roughWeight")
     private String roughWeight;
     //经营单位
+    @ExcelDesc(value = "manageUnit")
     private String manageUnit;
     //交易方式
+    @ExcelDesc(value = "tradeWay")
     private String tradeWay;
     //包装种类
+    @ExcelDesc(value = "packageKind")
     private String packageKind;
     //提运单号
+    @ExcelDesc(value = "packageNumber")
     private String packageNumber;
     //总价
+    @ExcelDesc(value = "sumPrice")
     private String sumPrice;
     //净重
+    @ExcelDesc(value = "netWeight")
     private String netWeight;
     //单价
+    @ExcelDesc(value = "unitPrice")
     private String unitPrice;
+
+
+
+
 
     public String getPortOfExport() {
         return portOfExport;
     }
-
     public void setPortOfExport(String portOfExport) {
         this.portOfExport = portOfExport;
     }

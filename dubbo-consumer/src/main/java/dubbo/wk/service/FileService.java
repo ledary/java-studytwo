@@ -9,4 +9,5 @@ import dubbo.wk.model.WordTemplateModel;
 public interface FileService {
     ExcelTemplateModel queryExcelTemplate();
     WordTemplateModel queryWordTemplate();
+    ExcelTemplateModel queryExcelTemplateByXls();
 }

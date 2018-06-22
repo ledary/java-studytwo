@@ -1,20 +1,28 @@
 package dubbo.wk.utils.excel;
 
 import com.fasterxml.jackson.databind.exc.InvalidFormatException;
+import com.sun.org.apache.xml.internal.resolver.readers.TR9401CatalogReader;
+import dubbo.wk.model.ExcelTemplateModel;
+import org.apache.commons.collections.map.HashedMap;
 import org.apache.poi.hssf.usermodel.*;
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader;
 
 import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletResponse;
 import java.io.*;
 import java.lang.reflect.Field;
+import java.lang.reflect.Type;
+import java.text.SimpleDateFormat;
 import java.util.*;
 
 /**
  * Created by wgp on 2018/6/20.
  */
 public class ExcelUtils<T> {
+
+    private SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
 
     Class<T> clazz;
     public ExcelUtils(Class<T> clazz){
@@ -413,6 +421,81 @@ public class ExcelUtils<T> {
 
         }
         return  workbook;
+
+    }
+
+
+
+    public <T> void makeExcelByXlsTemplate(T t,String tplName,OutputStream os)throws  Exception{
+        InputStream inputStream = new  ClasspathResourceLoader().getResourceStream(tplName);
+        Map<String,String> fieldMap = new HashMap<>(64);
+        Workbook workbook = WorkbookFactory.create(inputStream);
+        Sheet sheet = workbook.getSheetAt(0);
+
+
+
+        String value = "";
+        List<Field> fileList = getMappedFiled(t.getClass(),null);
+        for(Field field:fileList) {
+            field.setAccessible(true);
+            Type type = field.getType();
+            if (type == String.class) {
+                value = field.get(t)!=null?field.get(t).toString():"";
+            } else if (type == Date.class) {
+                value = format.format(field.get(t));
+            } else if (type == Boolean.class) {
+                value = field.get(t)!=null?field.get(t).toString():"";
+            } else {
+                value = field.get(t)!=null?field.get(t).toString():"";
+            }
+            ExcelDesc desc = field.getAnnotation(ExcelDesc.class);
+            if (!"".equals(desc.value())) {
+                fieldMap.put(desc.value(), value);
+            }
+        }
+
+        int rowNum=sheet.getLastRowNum() + 1;
+        int coloumNum=sheet.getRow(0).getPhysicalNumberOfCells();
+        if(coloumNum>0 && rowNum>0){
+            for(int i=0;i<rowNum;i++){
+                 coloumNum=sheet.getRow(i).getPhysicalNumberOfCells();
+                for(int j =0;j<coloumNum;j++){
+                    Cell cell = sheet.getRow(i).getCell(j);
+                    if(cell != null){
+                        cell.setCellType(CellType.STRING);
+                        System.out.println(cell.getStringCellValue());
+                        String key = cell.getStringCellValue();
+                        String cellValue = fieldMap.get(key);
+                        if(cellValue != null ){
+                            cell.setCellValue(cellValue);
+                        }
+                    }
+
+                }
+            }
+        }
+       workbook.write(os);
+    }
+
+    public static void main(String[] args) {
+        try{
+            OutputStream os = new FileOutputStream("E:\\temp\\temp.xls");
+            ExcelTemplateModel model =new ExcelTemplateModel();
+            model.setPortOfExport("出口口岸");
+            model.setRecordNumber("备案号");
+            model.setExportDate("出口日期");
+            model.setManageUnit("经营单位");
+            model.setTradeWay("运输方式");
+            model.setTransportName("交通工具名称");
+            model.setPackageNumber("提运单号");
+            model.setDeclareDate("申报日期");
+            ExcelUtils<ExcelTemplateModel> utils = new ExcelUtils<>(ExcelTemplateModel.class);
+            utils.makeExcelByXlsTemplate(model,"vm" + File.separator + "excel.xls",os);
+            os.flush();
+            os.close();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
 
     }
 }
