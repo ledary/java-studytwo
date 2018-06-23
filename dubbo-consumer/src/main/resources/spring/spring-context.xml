@@ -28,6 +28,7 @@
     <!--quartz单机版配置-->
     <!--<import resource="classpath:spring/spring-quartz.xml"/>-->
 
+    <import resource="spring-rabbit.xml"/>
 
 
 </beans>

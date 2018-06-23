@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:rabbit="http://www.springframework.org/schema/rabbit"
+       xsi:schemaLocation="http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+     http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd http://www.springframework.org/schema/rabbit http://www.springframework.org/schema/rabbit/spring-rabbit.xsd">
+
+
+<!--<rabbit:connection-factory id="connectionFactory" host="localhost"-->
+              <!--port="5672" username="ledary" password="ledary"-->
+                               <!--virtual-host="ledary-host"/>-->
+    <!--<rabbit:template id="template" connection-factory="connectionFactory"-->
+                     <!--encoding="UTF-8" exchange="ledaryExchange"/>-->
+    <!--<rabbit:queue name="ledaryQueue" auto-declare="true"/>-->
+    <!---->
+    <!--<rabbit:direct-exchange name="ledaryExchange">-->
+        <!--<rabbit:bindings>-->
+            <!--<rabbit:binding queue="ledaryQueue"/>-->
+        <!--</rabbit:bindings>-->
+    <!--</rabbit:direct-exchange>-->
+    <!--<rabbit:listener-container connection-factory="connectionFactory">-->
+        <!--<rabbit:listener ref="rabbitServiceImpl" queue-names="ledaryExchange"/>-->
+    <!--</rabbit:listener-container>-->
+
+    <!--连接工厂-->
+    <rabbit:connection-factory id="rabbitmqConnectionFactory"
+                               username="ledary" password="ledary" host="127.0.0.1"
+                               port="5672" virtual-host="ledary-host"/>
+    <!--生产者-->
+    <rabbit:template id="sendTemplate" connection-factory="rabbitmqConnectionFactory" encoding="UTF-8"
+                     exchange="exchange"/>
+
+    <!--加上下面这句话，才可以自动生成队列和交换机-->
+    <rabbit:admin id="connectAdmin" connection-factory="rabbitmqConnectionFactory"/>
+    <!-- 定义队列 -->
+    <rabbit:queue name="ledaryQueue"  durable="true" auto-delete="false" exclusive="false" declared-by="connectAdmin"/>
+
+    <!-- 定义交换器  加上declared-by才可以声明第二个交换机和队列，第二个的connectAdmin最后改下名字 -->
+    <rabbit:direct-exchange name="exchange" durable="true" auto-delete="false" declared-by="connectAdmin">
+    <rabbit:bindings>
+            <rabbit:binding queue="ledaryQueue" key=""/>
+        </rabbit:bindings>
+    </rabbit:direct-exchange>
+
+    <!-- 队列监听:acknowledge确认机制 默认是开启的呃；这里的acknowledge一定要设置为manual，否则无法手动确认，否则会报错的"-->
+    <rabbit:listener-container connection-factory="rabbitmqConnectionFactory" acknowledge="manual">
+        <rabbit:listener ref="rabbitServiceImpl"  queue-names="ledaryQueue"/>
+    </rabbit:listener-container>
+
+    <bean id="consumer" class="dubbo.wk.service.impl.RabbitMqConsumer"/>
+
+</beans>
