@@ -26,4 +26,9 @@ utils工具包
     Pdf工具类根据模板导出PDF
     config包下  spring的解析占位符的工具类
 
-
+增加rabbitmq与spring结合的配置
+    这一路踩了不少坑。
+   <!--加上下面这句话，才可以自动生成队列和交换机-->
+       <rabbit:admin id="connectAdmin" connection-factory="rabbitmqConnectionFactory"/>
+    否则需要自己手动创建队列和交换机，并且绑定。
+    手动确认的话，需要设置监听的acknowledge="manual"
