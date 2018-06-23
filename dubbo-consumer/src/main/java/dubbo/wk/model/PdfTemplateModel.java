@@ -3,7 +3,7 @@ package dubbo.wk.model;
 /**
  * Created by wgp on 2018/6/22.
  */
-public class PdfTemplateModel {
+public class PdfTemplateModel extends BaseModel {
     private String name;
     private Integer age;
     private String goal;

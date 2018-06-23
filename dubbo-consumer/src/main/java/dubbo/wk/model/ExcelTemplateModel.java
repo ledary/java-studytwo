@@ -6,7 +6,7 @@ import dubbo.wk.utils.excel.ExcelTemplateDesc;
 /**
  * Created by wgp on 2018/6/21.
  */
-public class ExcelTemplateModel {
+public class ExcelTemplateModel extends BaseModel {
     //出口口岸
     @ExcelDesc(value = "portOfExport")
     private String portOfExport;

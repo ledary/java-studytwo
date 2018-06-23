@@ -5,7 +5,7 @@ import dubbo.wk.utils.excel.ExcelDesc;
 /**
  * Created by wgp on 2018/6/20.
  */
-public class ExcelModel {
+public class ExcelModel extends BaseModel {
 
 //    备案号	合同协议号	企业内部编号	报关单号	统一编号	申报地海关	贸易方式	进出口口岸	放行日期
 //    进出口日期	申报日期	运输方式	运输工具名称	境内目的地	启运国(地区)/运抵国(地区)	装货港/指运港

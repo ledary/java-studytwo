@@ -3,7 +3,7 @@ package dubbo.wk.model;
 /**
  * Created by wgp on 2018/6/21.
  */
-public class WordTemplateModel {
+public class WordTemplateModel extends BaseModel {
     private String name;
     private String passDate;
     private String approvePerson;

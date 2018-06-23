@@ -5,7 +5,7 @@ package dubbo.wk.model;
  * @description  发送邮件显示订单信息实体
  * @date 2018/6/17
  **/
-public class OrderEmailModel {
+public class OrderEmailModel extends BaseModel {
     private String orderNumber;
     private String name;
     private String address;

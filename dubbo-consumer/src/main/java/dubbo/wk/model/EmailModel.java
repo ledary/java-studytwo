@@ -1,11 +1,13 @@
 package dubbo.wk.model;
 
+import java.io.Serializable;
+
 /**
  * @author WGP
  * @description 发送邮件实体类
  * @date 2018/6/14
  **/
-public class EmailModel {
+public class EmailModel extends BaseModel  {
     //发件人
     String fromEmail;
     //收件人
