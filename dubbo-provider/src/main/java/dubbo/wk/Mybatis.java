@@ -20,6 +20,8 @@ public class Mybatis {
         UserEntity userEntity = userService.findUserByPrimaryKey(1L);
         Mybatis mybatis  = new Mybatis();
         mybatis.printEntity(userEntity);
+
+
     }
 
 

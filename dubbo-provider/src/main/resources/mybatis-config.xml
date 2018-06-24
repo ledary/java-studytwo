@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <properties resource="db.properties"/>
+
+    <settings>
+        <!-- 打开延迟加载的开关 -->
+        <setting name="lazyLoadingEnabled" value="true"/>
+        <!-- 将积极加载改为消极加载，即延迟加载 -->
+        <setting name="aggressiveLazyLoading" value="false"/>
+        <!--<setting name="logImpl" value="STDOUT_LOGGING" />-->
+        <setting name="logImpl" value="LOG4J" />
+    </settings>
+    <typeAliases>
+        <typeAlias type="dubbo.wk.model.domain.UserEntity" alias="user"/>
+
+
+    </typeAliases>
+
+
+    <environments default="development">
+        <environment id="development">
+            <!--事务管理器部分-->
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="${db.driver}"/>
+                <property name="url" value="${db.url}"/>
+                <property name="username" value="${db.username}"/>
+                <property name="password" value="${db.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <mappers>
+
+        <mapper resource="mapper/UserMapper.xml"></mapper>
+
+    </mappers>
+</configuration>

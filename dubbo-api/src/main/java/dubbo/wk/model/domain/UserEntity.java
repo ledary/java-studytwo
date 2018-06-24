@@ -13,9 +13,13 @@ public class UserEntity extends  BaseEntity {
     private String userName;
     private String password;
     private String phone;
-    private SexEnums sex;
+    private String sex;
 
-    public void setSex(SexEnums sex) {
+    public String getSex() {
+        return sex;
+    }
+
+    public void setSex(String sex) {
         this.sex = sex;
     }
 

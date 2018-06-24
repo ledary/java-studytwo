@@ -9,4 +9,5 @@ import dubbo.wk.model.domain.UserEntity;
  **/
 public interface UserMapper {
     UserEntity findByPrimaryKey(Long id);
+    void insert(UserEntity user);
 }
