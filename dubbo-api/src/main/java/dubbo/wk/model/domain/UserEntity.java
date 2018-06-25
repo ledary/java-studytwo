@@ -14,6 +14,8 @@ public class UserEntity extends  BaseEntity {
     private String password;
     private String phone;
     private String sex;
+    private String email;
+
 
     public String getSex() {
         return sex;
@@ -23,7 +25,6 @@ public class UserEntity extends  BaseEntity {
         this.sex = sex;
     }
 
-    private String email;
 
 
     public String getUserName() {

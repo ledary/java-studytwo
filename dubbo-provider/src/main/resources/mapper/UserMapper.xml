@@ -29,7 +29,7 @@
             <if test="userName!=null">
                 username,
             </if>
-            <if test="passWord!=null">
+            <if test="password!=null">
                 password,
             </if>
             <if test="phone!=null">
@@ -51,8 +51,8 @@
             <if test="userName!=null">
                 #{userName,jdbcType=VARCHAR},
             </if>
-            <if test="passWord!=null">
-                #{passWord,jdbcType=VARCHAR},
+            <if test="password!=null">
+                #{password,jdbcType=VARCHAR},
             </if>
             <if test="phone!=null">
                 #{phone,jdbcType=VARCHAR},
@@ -61,11 +61,20 @@
                 #{email,jdbcType=VARCHAR},
             </if>
             <if test="sex!=null">
-                #{sex, typeHandler=com.ssm.mybatis.typehandler.SexEnumHandler2},
+                #{sex,jdbcType=VARCHAR},
             </if>
             SYSDATE(),
             SYSDATE()
         </trim>
 
     </insert>
+
+    <update id="updateUser">
+        update  tb_user set phone = #{phone},username = #{userName},email= #{email},`password` = #{password},sex =#{sex}  where id = #{id}
+    </update>
+
+    <update id="updateUserByDate">
+        update  tb_user  set phone = #{phone},username = #{userName},email= #{email},`password` = #{password},sex =#{sex}
+        where id = #{id}  and created  &lt;= #{created} and updated &gt;= date_add(#{updated}, 'interval 1 day')
+    </update>
 </mapper>
