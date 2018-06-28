@@ -20,7 +20,7 @@ import java.util.Objects;
 /**
  * Created by wgp on 2018/6/23.
  */
-@Service
+@Service("rabbitServiceImpl")
 public class RabbitServiceImpl implements MessageQueueService,ChannelAwareMessageListener {
 
     @Autowired

@@ -26,9 +26,10 @@
     <import resource="classpath:spring/spring-quartzmany.xml"/>
 
     <!--quartz单机版配置-->
-    <!--<import resource="classpath:spring/spring-quartz.xml"/>-->
+    <import resource="classpath:spring/spring-quartz.xml"/>
 
     <import resource="spring-rabbit.xml"/>
+    <import resource="spring-delayrabbit.xml"/>
 
 
 </beans>

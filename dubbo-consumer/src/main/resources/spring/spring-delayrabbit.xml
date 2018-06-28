@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:rabbit="http://www.springframework.org/schema/rabbit"
+       xsi:schemaLocation="http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+     http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd http://www.springframework.org/schema/rabbit http://www.springframework.org/schema/rabbit/spring-rabbit.xsd">
+
+    <!--连接工厂-->
+    <rabbit:connection-factory id="rabbitmqConnectionFactory"
+                               username="guest" password="guest" host="127.0.0.1"
+                               port="5672" virtual-host="ledary-host"/>
+
+    <rabbit:admin id="rabbitAdmin" connection-factory="rabbitmqConnectionFactory"/>
+    <rabbit:queue name="delay_queue" auto-declare="true" declared-by="rabbitAdmin">
+        <rabbit:queue-arguments>
+            <entry key="x-message-ttl" value="20000" value-type="java.lang.Long"/>
+            <entry key="x-dead-letter-exchange" value="exchange_delay"/>
+            <entry key="x-dead-letter-routing-key" value="task_queue"/>
+        </rabbit:queue-arguments>
+    </rabbit:queue>
+
+    <rabbit:queue name="task_queue" auto-declare="true" declared-by="rabbitAdmin"/>
+    <rabbit:direct-exchange name="exchange_delay" durable="false"
+                            auto-delete="false"
+                            id="exchange_delay">
+        <rabbit:bindings>
+            <rabbit:binding queue="task_queue" key="task_queue"/>
+        </rabbit:bindings>
+    </rabbit:direct-exchange>
+
+    <rabbit:template id="delayTemplate" connection-factory="rabbitmqConnectionFactory"
+                     queue="delay_queue" routing-key="delay_queue"/>
+
+    <!-- 配置线程池 -->
+    <bean id ="taskExecutor"  class ="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor" >
+        <!-- 线程池维护线程的最少数量 -->
+        <property name ="corePoolSize" value ="5" />
+        <!-- 线程池维护线程所允许的空闲时间 -->
+        <property name ="keepAliveSeconds" value ="30000" />
+        <!-- 线程池维护线程的最大数量 -->
+        <property name ="maxPoolSize" value ="1000" />
+        <!-- 线程池所使用的缓冲队列 -->
+        <property name ="queueCapacity" value ="200" />
+    </bean>
+
+    <!-- Queue Listener 当有消息到达时会通知监听在对应的队列上的监听对象-->
+    <rabbit:listener-container connection-factory="rabbitmqConnectionFactory" acknowledge="manual" task-executor="taskExecutor">
+        <rabbit:listener queues="task_queue" ref="delayCousmer"/>
+    </rabbit:listener-container>
+
+</beans>

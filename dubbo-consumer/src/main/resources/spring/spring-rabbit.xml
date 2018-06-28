@@ -26,10 +26,10 @@
 
     <!--连接工厂-->
     <rabbit:connection-factory id="rabbitmqConnectionFactory"
-                               username="ledary" password="ledary" host="127.0.0.1"
+                               username="guest" password="guest" host="127.0.0.1"
                                port="5672" virtual-host="ledary-host"/>
     <!--生产者-->
-    <rabbit:template id="sendTemplate" connection-factory="rabbitmqConnectionFactory" encoding="UTF-8"
+    <rabbit:template id="template" connection-factory="rabbitmqConnectionFactory" encoding="UTF-8"
                      exchange="exchange"/>
 
     <!--加上下面这句话，才可以自动生成队列和交换机-->
